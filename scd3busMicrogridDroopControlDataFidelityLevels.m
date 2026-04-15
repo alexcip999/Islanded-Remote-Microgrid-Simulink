@@ -58,6 +58,11 @@ Kp_vq = 0.36;   % Proportional term q-axis voltage controller
 Ki_vq = 850;    % Integral term q-axis voltage controller 
 
 %% Droop Control Parameters
-Kdroop_fp = 0.05/2;
-Kdroop_vq = 0.05/2;
+Kdroop_fp1 = 0.03/2;
+Kdroop_vq1 = 0.01/2;
+
+Kdroop_fp2 = 0.03/2;
+Kdroop_vq2 = 0.01/2;
 Ts_DC = 1e-4;
+
+consensus_enable = 1;

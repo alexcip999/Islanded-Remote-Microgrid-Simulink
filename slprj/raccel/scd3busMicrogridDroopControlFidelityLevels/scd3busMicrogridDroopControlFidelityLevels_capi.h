@@ -1,0 +1,6 @@
+#ifndef scd3busMicrogridDroopControlFidelityLevels_capi_h_
+#define scd3busMicrogridDroopControlFidelityLevels_capi_h_
+#include "scd3busMicrogridDroopControlFidelityLevels.h"
+extern void scd3busMicrogridDroopControlFidelityLevels_InitializeDataMapInfo
+( void ) ;
+#endif
