@@ -37,7 +37,7 @@ rt_TDelayUpdateTailOrGrowBuf ( int32_T * bufSzPtr , int32_T * tailPtr ,
 int32_T * headPtr , int32_T * lastPtr , real_T tMinusDelay , real_T * *
 uBufPtr , boolean_T isfixedbuf , boolean_T istransportdelay , int32_T *
 maxNewBufSzPtr ) ; extern real_T look1_binlcpw ( real_T u0 , const real_T bp0
-[ ] , const real_T table [ ] , uint32_T maxIndex ) ; extern void g04zyq5wwj ( dr3zeyo5on * localDW ) ; extern void i4ntyq1hna ( const real_T lpyitkag1t [ 3 ] , real_T hb0qq0zf0i , jcy052muck * localB , dr3zeyo5on * localDW , hn5x2iuncz * localP ) ; extern void pf5otbgi0a ( lzkrz32ccw * localDW ) ; extern void cbyvopinud ( const real_T pj5ipszssa [ 4 ] , real_T evqr2qwzfe , real_T mdv0uhhfyw , b0azs1odcw * localB , lzkrz32ccw * localDW ) ;
+[ ] , const real_T table [ ] , uint32_T maxIndex ) ; extern void myvhmeoa14 ( d5qf1ggxbu * localDW ) ; extern void jiypoxprlt ( real_T cymg30cldp , real_T es3igpj2hn , real_T c2r5a1kwfz , real_T hjnuemo4at , real_T jfjqsdqagj , real_T psy3njiwti , real_T bht44nti2c , jyhhxe0hxf * localB , d5qf1ggxbu * localDW ) ; extern void g04zyq5wwj ( dr3zeyo5on * localDW ) ; extern void i4ntyq1hna ( const real_T lpyitkag1t [ 3 ] , real_T hb0qq0zf0i , jcy052muck * localB , dr3zeyo5on * localDW , hn5x2iuncz * localP ) ; extern void owtlzp2km0 ( pd3um54lgy * localDW ) ; extern void ddgrpugzor ( const real_T bk4zh0nq31 [ 4 ] , real_T nbh1rjozvk , real_T d0vfqnxaix , gghhglrkef * localB , pd3um54lgy * localDW ) ;
 #if defined(MULTITASKING)
 #error Models using the variable step solvers cannot define MULTITASKING
 #endif

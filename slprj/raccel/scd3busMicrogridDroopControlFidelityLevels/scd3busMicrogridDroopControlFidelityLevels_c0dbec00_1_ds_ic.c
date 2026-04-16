@@ -6,8 +6,8 @@
 #include "scd3busMicrogridDroopControlFidelityLevels_c0dbec00_1_ds_external_struct.h"
 #include "ssc_ml_fun.h"
 int32_T scd3busMicrogridDroopControlFidelityLevels_c0dbec00_1_ds_ic ( const
-NeDynamicSystem * LC , const NeDynamicSystemInput * t19 , NeDsMethodOutput *
-out ) { ( void ) t19 ; ( void ) LC ; out -> mIC . mX [ 0ULL ] = 0.0 ; out ->
+NeDynamicSystem * LC , const NeDynamicSystemInput * t24 , NeDsMethodOutput *
+out ) { ( void ) t24 ; ( void ) LC ; out -> mIC . mX [ 0ULL ] = 0.0 ; out ->
 mIC . mX [ 1ULL ] = 0.0 ; out -> mIC . mX [ 2ULL ] = 0.0 ; out -> mIC . mX [
 3ULL ] = 0.0 ; out -> mIC . mX [ 4ULL ] = 0.0 ; out -> mIC . mX [ 5ULL ] =
 0.0 ; out -> mIC . mX [ 6ULL ] = 0.0 ; out -> mIC . mX [ 7ULL ] = 0.0 ; out
@@ -42,20 +42,39 @@ out -> mIC . mX [ 69ULL ] = 0.0 ; out -> mIC . mX [ 70ULL ] = 0.0 ; out ->
 mIC . mX [ 71ULL ] = 0.0 ; out -> mIC . mX [ 72ULL ] = 0.0 ; out -> mIC . mX
 [ 73ULL ] = 0.0 ; out -> mIC . mX [ 74ULL ] = 0.0 ; out -> mIC . mX [ 75ULL ]
 = 0.0 ; out -> mIC . mX [ 76ULL ] = 0.0 ; out -> mIC . mX [ 77ULL ] = 0.0 ;
-out -> mIC . mX [ 78ULL ] = 0.0 ; out -> mIC . mX [ 79ULL ] = 0.0 ; out ->
+out -> mIC . mX [ 78ULL ] = 0.0 ; out -> mIC . mX [ 79ULL ] = 298.15 ; out ->
 mIC . mX [ 80ULL ] = 0.0 ; out -> mIC . mX [ 81ULL ] = 0.0 ; out -> mIC . mX
 [ 82ULL ] = 0.0 ; out -> mIC . mX [ 83ULL ] = 0.0 ; out -> mIC . mX [ 84ULL ]
-= 0.0 ; out -> mIC . mX [ 85ULL ] = 0.0 ; out -> mIC . mX [ 86ULL ] = 0.0 ;
-out -> mIC . mX [ 87ULL ] = 0.0 ; out -> mIC . mX [ 88ULL ] = 0.0 ; out ->
-mIC . mX [ 89ULL ] = 0.0 ; out -> mIC . mX [ 90ULL ] = 0.0 ; out -> mIC . mX
-[ 91ULL ] = 0.0 ; out -> mIC . mX [ 92ULL ] = 298.15 ; out -> mIC . mX [
-93ULL ] = 0.0 ; out -> mIC . mX [ 94ULL ] = 0.0 ; out -> mIC . mX [ 95ULL ] =
-0.0 ; out -> mIC . mX [ 96ULL ] = 0.0 ; out -> mIC . mX [ 97ULL ] = 298.15 ;
-out -> mIC . mX [ 98ULL ] = 298.15 ; out -> mIC . mX [ 99ULL ] = 298.15 ; out
--> mIC . mX [ 100ULL ] = 298.15 ; out -> mIC . mX [ 101ULL ] = 0.0 ; out ->
-mIC . mX [ 102ULL ] = 0.0 ; out -> mIC . mX [ 103ULL ] = 298.15 ; out -> mIC
-. mX [ 104ULL ] = 0.0 ; out -> mIC . mX [ 105ULL ] = 0.0 ; out -> mIC . mX [
-106ULL ] = 0.0 ; out -> mIC . mX [ 107ULL ] = 0.0 ; out -> mIC . mX [ 108ULL
-] = 298.15 ; out -> mIC . mX [ 109ULL ] = 298.15 ; out -> mIC . mX [ 110ULL ]
-= 298.15 ; out -> mIC . mX [ 111ULL ] = 298.15 ; ( void ) LC ; ( void ) out ;
+= 298.15 ; out -> mIC . mX [ 85ULL ] = 298.15 ; out -> mIC . mX [ 86ULL ] =
+298.15 ; out -> mIC . mX [ 87ULL ] = 298.15 ; out -> mIC . mX [ 88ULL ] = 0.0
+; out -> mIC . mX [ 89ULL ] = 0.0 ; out -> mIC . mX [ 90ULL ] = 0.0 ; out ->
+mIC . mX [ 91ULL ] = 0.0 ; out -> mIC . mX [ 92ULL ] = 0.0 ; out -> mIC . mX
+[ 93ULL ] = 0.0 ; out -> mIC . mX [ 94ULL ] = 0.0 ; out -> mIC . mX [ 95ULL ]
+= 0.0 ; out -> mIC . mX [ 96ULL ] = 0.0 ; out -> mIC . mX [ 97ULL ] = 0.0 ;
+out -> mIC . mX [ 98ULL ] = 0.0 ; out -> mIC . mX [ 99ULL ] = 0.0 ; out ->
+mIC . mX [ 100ULL ] = 0.0 ; out -> mIC . mX [ 101ULL ] = 0.0 ; out -> mIC .
+mX [ 102ULL ] = 0.0 ; out -> mIC . mX [ 103ULL ] = 0.0 ; out -> mIC . mX [
+104ULL ] = 0.0 ; out -> mIC . mX [ 105ULL ] = 0.0 ; out -> mIC . mX [ 106ULL
+] = 0.0 ; out -> mIC . mX [ 107ULL ] = 0.0 ; out -> mIC . mX [ 108ULL ] = 0.0
+; out -> mIC . mX [ 109ULL ] = 0.0 ; out -> mIC . mX [ 110ULL ] = 0.0 ; out
+-> mIC . mX [ 111ULL ] = 0.0 ; out -> mIC . mX [ 112ULL ] = 0.0 ; out -> mIC
+. mX [ 113ULL ] = 298.15 ; out -> mIC . mX [ 114ULL ] = 0.0 ; out -> mIC . mX
+[ 115ULL ] = 0.0 ; out -> mIC . mX [ 116ULL ] = 0.0 ; out -> mIC . mX [
+117ULL ] = 0.0 ; out -> mIC . mX [ 118ULL ] = 298.15 ; out -> mIC . mX [
+119ULL ] = 298.15 ; out -> mIC . mX [ 120ULL ] = 298.15 ; out -> mIC . mX [
+121ULL ] = 298.15 ; out -> mIC . mX [ 122ULL ] = 0.0 ; out -> mIC . mX [
+123ULL ] = 0.0 ; out -> mIC . mX [ 124ULL ] = 0.0 ; out -> mIC . mX [ 125ULL
+] = 0.0 ; out -> mIC . mX [ 126ULL ] = 0.0 ; out -> mIC . mX [ 127ULL ] = 0.0
+; out -> mIC . mX [ 128ULL ] = 0.0 ; out -> mIC . mX [ 129ULL ] = 0.0 ; out
+-> mIC . mX [ 130ULL ] = 0.0 ; out -> mIC . mX [ 131ULL ] = 0.0 ; out -> mIC
+. mX [ 132ULL ] = 0.0 ; out -> mIC . mX [ 133ULL ] = 0.0 ; out -> mIC . mX [
+134ULL ] = 0.0 ; out -> mIC . mX [ 135ULL ] = 0.0 ; out -> mIC . mX [ 136ULL
+] = 0.0 ; out -> mIC . mX [ 137ULL ] = 0.0 ; out -> mIC . mX [ 138ULL ] = 0.0
+; out -> mIC . mX [ 139ULL ] = 0.0 ; out -> mIC . mX [ 140ULL ] = 0.0 ; out
+-> mIC . mX [ 141ULL ] = 0.0 ; out -> mIC . mX [ 142ULL ] = 0.0 ; out -> mIC
+. mX [ 143ULL ] = 0.0 ; out -> mIC . mX [ 144ULL ] = 298.15 ; out -> mIC . mX
+[ 145ULL ] = 0.0 ; out -> mIC . mX [ 146ULL ] = 0.0 ; out -> mIC . mX [
+147ULL ] = 0.0 ; out -> mIC . mX [ 148ULL ] = 0.0 ; out -> mIC . mX [ 149ULL
+] = 298.15 ; out -> mIC . mX [ 150ULL ] = 298.15 ; out -> mIC . mX [ 151ULL ]
+= 298.15 ; out -> mIC . mX [ 152ULL ] = 298.15 ; ( void ) LC ; ( void ) out ;
 return 0 ; }

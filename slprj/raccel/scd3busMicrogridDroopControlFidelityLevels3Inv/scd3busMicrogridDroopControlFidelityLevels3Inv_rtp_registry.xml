@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_param_rtp/R2023a">
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="9157af41-3ab9-4552-9328-a6ba136b9495">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="a1739a29-3308-429f-807e-2c2420fdefea"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3aa8b55e-5710-43e2-9f74-d65dd6448330"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="9119506b-893f-4ce8-b23f-e217cbfc2001">
+    <workspaceName>global-workspace</workspaceName>
+    <name>Ki_vq</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="8225da48-eaa0-4304-9b64-ed4bd51e5363"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.ModelMetadata type="slsa.mm.param.rtp.ModelMetadata" uuid="5128ca20-d1cd-4263-a738-0fbe47d390d1">
+    <modelName>scd3busMicrogridDroopControlFidelityLevels3Inv</modelName>
+  </slsa.mm.param.rtp.ModelMetadata>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="d1d95a3c-4abb-4090-98bb-ce2f77bc0592">
+    <workspaceName>global-workspace</workspaceName>
+    <name>Kdroop_fp2</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9c11ae74-aac2-473f-ad8c-a109ae51e5da"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="52760368-1e3d-44de-9f13-d5e2f6ecb0b9">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="a7eef140-ea3d-4efe-8181-bd218473a22a"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f4caedf5-10df-45c4-a066-91bd7d335efd"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="a7eef140-ea3d-4efe-8181-bd218473a22a">
+    <workspaceName>global-workspace</workspaceName>
+    <name>Kdroop_fp1</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="52760368-1e3d-44de-9f13-d5e2f6ecb0b9"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="7c004111-eaef-4ed2-9abb-49ad07371569">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="403c9add-23f5-4a02-b375-42fe265c91be"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2f378702-5e15-489c-bf63-5c6a3e8b13f2"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="7c491a55-1263-4911-999c-8069df9af125">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9c11ae74-aac2-473f-ad8c-a109ae51e5da"/>
+    <valueIndices>1</valueIndices>
+    <valueIndices>1</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="9c11ae74-aac2-473f-ad8c-a109ae51e5da">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="d1d95a3c-4abb-4090-98bb-ce2f77bc0592"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="7c491a55-1263-4911-999c-8069df9af125"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="349c4940-ac9d-400b-b106-2eb730f3d843">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="9e4edcc5-e6cc-491c-b6c0-ac7b325d07fc"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="827abd6f-889a-44f7-bf23-294a1bfb3ec9"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f4caedf5-10df-45c4-a066-91bd7d335efd">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="52760368-1e3d-44de-9f13-d5e2f6ecb0b9"/>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="6e34b5b6-4fb1-4a5d-b44f-791d6320d3d0">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 1/Droop Controller Inverter1/Sinusoidal Measurement (PLL, Three-Phase)/PI/Integrator (Discrete or Continuous)/Discrete/Integrator</blockPath>
+    <name>UpperSaturationLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="50562b3c-ea84-456e-b4a8-7dd59ab8827a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ee4e144f-838f-466e-acd1-7af685ad75fe">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="f6b4dfc8-fa0c-4c47-bd3b-4426689ff094"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="1efbaaa4-4832-49cd-9fb3-6bf23797f483"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="36ed85d7-fab1-4d81-98ec-c5c277afbe46">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="f7a2359e-1c88-440d-997c-c40e0f99a948"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c0250be6-c0e0-49bf-88c6-a8a0d1c7358f"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="768b1c98-22d1-483f-b735-c36e65309126">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="e02cecff-5cbc-4471-b511-bdc6aff38ef3"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f8ea4db0-5878-4ab4-8b40-1e7cf5de8a6a"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="f6b4dfc8-fa0c-4c47-bd3b-4426689ff094">
+    <workspaceName>global-workspace</workspaceName>
+    <name>Kdroop_vq1</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ee4e144f-838f-466e-acd1-7af685ad75fe"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="9e4edcc5-e6cc-491c-b6c0-ac7b325d07fc">
+    <workspaceName>global-workspace</workspaceName>
+    <name>Kdroop_vq2</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="349c4940-ac9d-400b-b106-2eb730f3d843"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="1efbaaa4-4832-49cd-9fb3-6bf23797f483">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ee4e144f-838f-466e-acd1-7af685ad75fe"/>
+    <valueIndices>2</valueIndices>
+    <valueIndices>2</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="8225da48-eaa0-4304-9b64-ed4bd51e5363">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="9119506b-893f-4ce8-b23f-e217cbfc2001"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4b423472-8d71-4b6f-9bf8-12d3c1e3db51"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="82027833-8904-4cba-9140-24b1c53d63e1">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="be315464-c581-4160-a749-e50cd9a406d7"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>181</valueIndices>
+    <valueIndices>181</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="827abd6f-889a-44f7-bf23-294a1bfb3ec9">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="349c4940-ac9d-400b-b106-2eb730f3d843"/>
+    <valueIndices>3</valueIndices>
+    <valueIndices>3</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="a074bcff-3f95-4541-a955-b1be5c3ffb87">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5b9da0df-a2f8-4864-a126-66d28e7e588c"/>
+    <valueIndices>9</valueIndices>
+    <valueIndices>9</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="e02cecff-5cbc-4471-b511-bdc6aff38ef3">
+    <workspaceName>global-workspace</workspaceName>
+    <name>Ki_vd</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="768b1c98-22d1-483f-b735-c36e65309126"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="f8df4b44-098b-4613-9343-d8edc8eeef58">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="e5040887-b162-4b12-b969-e14889ae9698"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e1c2de3d-dfbd-499b-87ba-81825788d9bd"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f8ea4db0-5878-4ab4-8b40-1e7cf5de8a6a">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="768b1c98-22d1-483f-b735-c36e65309126"/>
+    <valueIndices>4</valueIndices>
+    <valueIndices>4</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4b423472-8d71-4b6f-9bf8-12d3c1e3db51">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="8225da48-eaa0-4304-9b64-ed4bd51e5363"/>
+    <valueIndices>5</valueIndices>
+    <valueIndices>5</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="48e858cc-1b90-47f5-b5ed-7c694147432c">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="4e1631ed-3048-4022-8c99-067694b17037"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3bf51ff3-ec7a-453e-b44d-822981089745"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ce1f9d60-5bb9-4ad2-9218-318e25654b97">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="83e8292c-b721-4a2d-9ba5-429c85d1ce71"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="dfcccb96-1eaa-47f7-96c2-e150b113a1ce"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="4ee0884e-b6f7-4ec9-9350-1473958e37f6">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="4f1ddda8-b278-4853-9981-0247be64909b"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f19bec35-70b5-4d64-af41-c6328b3ea730"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="4e1631ed-3048-4022-8c99-067694b17037">
+    <workspaceName>global-workspace</workspaceName>
+    <name>Kp_vd</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="48e858cc-1b90-47f5-b5ed-7c694147432c"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4eb2b7cb-2506-4e49-a612-7db97e82478a">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="4a143fbb-0f68-400d-8864-002f48dfdaa6"/>
+    <valueIndices>12</valueIndices>
+    <valueIndices>12</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3bf51ff3-ec7a-453e-b44d-822981089745">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="48e858cc-1b90-47f5-b5ed-7c694147432c"/>
+    <valueIndices>6</valueIndices>
+    <valueIndices>6</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="b35bc545-967b-458d-b5c8-2d64651beb74">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="d679c594-fa3a-4409-abb4-f12977a63551"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="83f9c259-e3bd-4006-b039-b86698833db0"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="d679c594-fa3a-4409-abb4-f12977a63551">
+    <workspaceName>global-workspace</workspaceName>
+    <name>Kp_vq</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b35bc545-967b-458d-b5c8-2d64651beb74"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="83e8292c-b721-4a2d-9ba5-429c85d1ce71">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 1/Droop Controller Inverter1/Sinusoidal Measurement (PLL, Three-Phase)/PI/Integrator (Discrete or Continuous)/Discrete/Saturation</blockPath>
+    <name>LowerLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ce1f9d60-5bb9-4ad2-9218-318e25654b97"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="03ef3a5b-9387-4c61-b341-d4aa1d1ec125">
+    <workspaceName>global-workspace</workspaceName>
+    <name>Ts</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="07ef03d6-31f0-4734-8254-0ce7da7ea24f"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="83f9c259-e3bd-4006-b039-b86698833db0">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b35bc545-967b-458d-b5c8-2d64651beb74"/>
+    <valueIndices>7</valueIndices>
+    <valueIndices>7</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="07ef03d6-31f0-4734-8254-0ce7da7ea24f">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="03ef3a5b-9387-4c61-b341-d4aa1d1ec125"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="eb6a040f-cf30-4b4e-9f21-ff06332e40c2"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="eb6a040f-cf30-4b4e-9f21-ff06332e40c2">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="07ef03d6-31f0-4734-8254-0ce7da7ea24f"/>
+    <valueIndices>8</valueIndices>
+    <valueIndices>8</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="5b9da0df-a2f8-4864-a126-66d28e7e588c">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="ec5d389c-9a23-4c7e-828a-780ec65c0f1f"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="a074bcff-3f95-4541-a955-b1be5c3ffb87"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="5ba328d2-5aba-4943-bbf4-4cb113fbe5cd">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="97959d52-ddd1-47e2-a976-e61bfcb286f6"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>31</valueIndices>
+    <valueIndices>31</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="ec5d389c-9a23-4c7e-828a-780ec65c0f1f">
+    <workspaceName>global-workspace</workspaceName>
+    <name>Vdc1</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5b9da0df-a2f8-4864-a126-66d28e7e588c"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c007dd48-791c-4fce-9219-0d1477927ded">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="27f61b60-e8db-4418-b260-ccf1e4e0fbdf"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>113</valueIndices>
+    <valueIndices>113</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c0250be6-c0e0-49bf-88c6-a8a0d1c7358f">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="36ed85d7-fab1-4d81-98ec-c5c277afbe46"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>36</valueIndices>
+    <valueIndices>36</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="403c9add-23f5-4a02-b375-42fe265c91be">
+    <workspaceName>global-workspace</workspaceName>
+    <name>Vdc2</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="7c004111-eaef-4ed2-9abb-49ad07371569"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2f378702-5e15-489c-bf63-5c6a3e8b13f2">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="7c004111-eaef-4ed2-9abb-49ad07371569"/>
+    <valueIndices>10</valueIndices>
+    <valueIndices>10</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="c538bd8c-aae7-4fd2-9806-ad8208b4f0a4">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="a4a6fe1a-314d-414e-9e14-febf1b525b36"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8d1a95fe-be48-407a-b6a8-1ea277ca09a6"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="a4a6fe1a-314d-414e-9e14-febf1b525b36">
+    <workspaceName>global-workspace</workspaceName>
+    <name>Vrms</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c538bd8c-aae7-4fd2-9806-ad8208b4f0a4"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8d1a95fe-be48-407a-b6a8-1ea277ca09a6">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c538bd8c-aae7-4fd2-9806-ad8208b4f0a4"/>
+    <valueIndices>11</valueIndices>
+    <valueIndices>11</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="4a143fbb-0f68-400d-8864-002f48dfdaa6">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="19eb1ec2-4ede-47a2-b919-501137314ae4"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4eb2b7cb-2506-4e49-a612-7db97e82478a"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="19eb1ec2-4ede-47a2-b919-501137314ae4">
+    <workspaceName>global-workspace</workspaceName>
+    <name>consensus_enable</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="4a143fbb-0f68-400d-8864-002f48dfdaa6"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="1957a41d-cc34-4d0a-af5d-6e927d2f6564">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="cfc6e846-a208-4491-adf9-199e1d82339f"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>35</valueIndices>
+    <valueIndices>35</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="700caa43-04a9-428e-b6e1-e3a2a50a28a4">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="6221d6b8-e6a2-4af4-a58a-e8920e1f9855"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e94a3851-4e36-4a50-9f5d-c6aae3b8ff99"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="22609da5-6519-4c61-9a92-f166d616cdf9">
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="9a4df68b-50e1-4cd4-aae9-6cbe28de3dca"/>
+    <segmentIndex>5</segmentIndex>
+    <valueIndices>1</valueIndices>
+    <valueIndices>1</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="228c5771-db94-4a5d-852a-3392220e34f8">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="6a396a8f-d8c0-4368-9c75-6ef829ef0ce0"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>1</valueIndices>
+    <valueIndices>1</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="6221d6b8-e6a2-4af4-a58a-e8920e1f9855">
+    <workspaceName>global-workspace</workspaceName>
+    <name>fgrid</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="700caa43-04a9-428e-b6e1-e3a2a50a28a4"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="e98630bc-30a5-42ef-9eab-464dbc8d52d9">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="5fda65b8-975e-4aff-92b7-d59f5c81f53f"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b502dd5f-6db4-42ee-8d94-da49e33ccd31"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e94a3851-4e36-4a50-9f5d-c6aae3b8ff99">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="700caa43-04a9-428e-b6e1-e3a2a50a28a4"/>
+    <valueIndices>13</valueIndices>
+    <valueIndices>13</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="e5040887-b162-4b12-b969-e14889ae9698">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 1/Solar1/irradiance /LimitedCounter</blockPath>
+    <name>uplimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f8df4b44-098b-4613-9343-d8edc8eeef58"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e1c2de3d-dfbd-499b-87ba-81825788d9bd">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f8df4b44-098b-4613-9343-d8edc8eeef58"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="6a396a8f-d8c0-4368-9c75-6ef829ef0ce0">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="1ff1f674-ae5b-4016-bdaf-607a4f6db703"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="228c5771-db94-4a5d-852a-3392220e34f8"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="dfcccb96-1eaa-47f7-96c2-e150b113a1ce">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ce1f9d60-5bb9-4ad2-9218-318e25654b97"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>37</valueIndices>
+    <valueIndices>37</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="1ff1f674-ae5b-4016-bdaf-607a4f6db703">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 2/Solar2/irradiance /LimitedCounter</blockPath>
+    <name>uplimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="6a396a8f-d8c0-4368-9c75-6ef829ef0ce0"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="97959d52-ddd1-47e2-a976-e61bfcb286f6">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="79bcdef9-b109-4860-b136-89eacadf4f28"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="5ba328d2-5aba-4943-bbf4-4cb113fbe5cd"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="79bcdef9-b109-4860-b136-89eacadf4f28">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 1/Droop Controller Inverter1/Sinusoidal Measurement (PLL, Three-Phase)/Park Transform/Gain1</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="97959d52-ddd1-47e2-a976-e61bfcb286f6"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.SFunctionParameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="509c579e-f76e-4197-bf12-6c2ce9c09fcd">
+    <isInlined>true</isInlined>
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="8d890267-f6e7-42f1-8bdd-355cb8e4bc2b"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c33e6c57-b457-42bf-be7b-7befcbf2446a"/>
+  </slsa.mm.param.rtp.SFunctionParameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="50562b3c-ea84-456e-b4a8-7dd59ab8827a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="6e34b5b6-4fb1-4a5d-b44f-791d6320d3d0"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d41387f3-b2af-4fdd-9ed2-b6b5b42c4b71"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d41387f3-b2af-4fdd-9ed2-b6b5b42c4b71">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="50562b3c-ea84-456e-b4a8-7dd59ab8827a"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>34</valueIndices>
+    <valueIndices>34</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="cfc6e846-a208-4491-adf9-199e1d82339f">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="1502df60-c404-428a-a2eb-6a0092e5dcb2"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="1957a41d-cc34-4d0a-af5d-6e927d2f6564"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="1502df60-c404-428a-a2eb-6a0092e5dcb2">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 1/Droop Controller Inverter1/Sinusoidal Measurement (PLL, Three-Phase)/PI/Integrator (Discrete or Continuous)/Discrete/Integrator</blockPath>
+    <name>LowerSaturationLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="cfc6e846-a208-4491-adf9-199e1d82339f"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="f7a2359e-1c88-440d-997c-c40e0f99a948">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 1/Droop Controller Inverter1/Sinusoidal Measurement (PLL, Three-Phase)/PI/Integrator (Discrete or Continuous)/Discrete/Saturation</blockPath>
+    <name>UpperLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="36ed85d7-fab1-4d81-98ec-c5c277afbe46"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ba54cd36-43db-4291-b51a-389b22bb3d41">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="3f2a8b71-a06a-48e2-9ede-c2b58be68d7c"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="53991fdf-14cb-432c-b614-835a0815ece0"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ba72cd17-144a-43de-9cf9-a73a83373fb8">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="7a18eebd-8866-4efa-9039-fbdd1d0e451d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e2c6c3c5-70e8-4e6e-978d-bb44d9458f51"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="7aaca68f-3d99-4497-9f51-e15a933c42cc">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Scopes/Sinusoidal Measurement (PLL, Three-Phase)/PI/Integrator (Discrete or Continuous)/Discrete/Integrator</blockPath>
+    <name>UpperSaturationLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="2f34f6dc-dee5-436a-b570-8c45951a8724"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="7a18eebd-8866-4efa-9039-fbdd1d0e451d">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 1/Droop Controller Inverter1/Park Transform/Gain1</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ba72cd17-144a-43de-9cf9-a73a83373fb8"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e2c6c3c5-70e8-4e6e-978d-bb44d9458f51">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ba72cd17-144a-43de-9cf9-a73a83373fb8"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>99</valueIndices>
+    <valueIndices>99</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="b0906ae2-debb-4d51-817e-2aec7c7b915a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="73e1ca18-79f2-4e85-a905-76f6911eabe0"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="259bcb00-d22d-4c2c-8c4c-6067b20ec14a"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="73e1ca18-79f2-4e85-a905-76f6911eabe0">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 1/Droop Controller Inverter1/Inverse Park Transform/Gain1</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b0906ae2-debb-4d51-817e-2aec7c7b915a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="259bcb00-d22d-4c2c-8c4c-6067b20ec14a">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b0906ae2-debb-4d51-817e-2aec7c7b915a"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>102</valueIndices>
+    <valueIndices>102</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="5fda65b8-975e-4aff-92b7-d59f5c81f53f">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 1/Droop Controller Inverter1/PWM Generator (Three-phase, Two-level)/Gate Signal Generator/Initial</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e98630bc-30a5-42ef-9eab-464dbc8d52d9"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b502dd5f-6db4-42ee-8d94-da49e33ccd31">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e98630bc-30a5-42ef-9eab-464dbc8d52d9"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>103</valueIndices>
+    <valueIndices>103</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="a684edb6-eb8f-4e0b-8555-4072aaa8b74c">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="b9d26ab8-e803-48be-8a1c-7051aced778b"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="fb757664-b210-42d2-82c9-8b6fea0b59ba"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="b9d26ab8-e803-48be-8a1c-7051aced778b">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 2/Droop Controller Inverter2/Sinusoidal Measurement (PLL, Three-Phase)/Park Transform/Gain1</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a684edb6-eb8f-4e0b-8555-4072aaa8b74c"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="fb757664-b210-42d2-82c9-8b6fea0b59ba">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a684edb6-eb8f-4e0b-8555-4072aaa8b74c"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>109</valueIndices>
+    <valueIndices>109</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="48a7cdf2-dffb-4eaf-82f8-9d63f861444e">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="e474f30c-13f8-4275-8eb2-1d80ec4e3b5d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="42ff42a7-7a64-45dc-98ba-8d8d8ffccb78"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="e474f30c-13f8-4275-8eb2-1d80ec4e3b5d">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 2/Droop Controller Inverter2/Sinusoidal Measurement (PLL, Three-Phase)/PI/Integrator (Discrete or Continuous)/Discrete/Integrator</blockPath>
+    <name>UpperSaturationLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="48a7cdf2-dffb-4eaf-82f8-9d63f861444e"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="42050483-c780-4950-96a5-3f8674c4ceb0">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="d0791caa-b170-434a-ae33-84777f61d16d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8f7058b8-c45a-4a11-8fbc-7cc4ca8b160c"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="42ff42a7-7a64-45dc-98ba-8d8d8ffccb78">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="48a7cdf2-dffb-4eaf-82f8-9d63f861444e"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>112</valueIndices>
+    <valueIndices>112</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="27f61b60-e8db-4418-b260-ccf1e4e0fbdf">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="6da0b42d-1bba-4d88-b035-fd012335534d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c007dd48-791c-4fce-9219-0d1477927ded"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="6da0b42d-1bba-4d88-b035-fd012335534d">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 2/Droop Controller Inverter2/Sinusoidal Measurement (PLL, Three-Phase)/PI/Integrator (Discrete or Continuous)/Discrete/Integrator</blockPath>
+    <name>LowerSaturationLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="27f61b60-e8db-4418-b260-ccf1e4e0fbdf"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="a1739a29-3308-429f-807e-2c2420fdefea">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 2/Droop Controller Inverter2/Sinusoidal Measurement (PLL, Three-Phase)/PI/Integrator (Discrete or Continuous)/Discrete/Saturation</blockPath>
+    <name>UpperLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9157af41-3ab9-4552-9328-a6ba136b9495"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3aa8b55e-5710-43e2-9f74-d65dd6448330">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9157af41-3ab9-4552-9328-a6ba136b9495"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>114</valueIndices>
+    <valueIndices>114</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d08f4d43-4e3c-4ccf-abee-7a69736122b8">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ffcb6f26-ad4d-4325-b366-b79f7d4203f5"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>226</valueIndices>
+    <valueIndices>226</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="d0791caa-b170-434a-ae33-84777f61d16d">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 2/Droop Controller Inverter2/Sinusoidal Measurement (PLL, Three-Phase)/PI/Integrator (Discrete or Continuous)/Discrete/Saturation</blockPath>
+    <name>LowerLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="42050483-c780-4950-96a5-3f8674c4ceb0"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8f7058b8-c45a-4a11-8fbc-7cc4ca8b160c">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="42050483-c780-4950-96a5-3f8674c4ceb0"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>115</valueIndices>
+    <valueIndices>115</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="8b1ff79d-99d1-436b-be23-f65dee32800f">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="17407b07-199e-4292-9946-a5c205982c47"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="dea1b019-ca63-4158-bfe2-2d8b025edbae"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="17407b07-199e-4292-9946-a5c205982c47">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 2/Droop Controller Inverter2/Park Transform/Gain1</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="8b1ff79d-99d1-436b-be23-f65dee32800f"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="dea1b019-ca63-4158-bfe2-2d8b025edbae">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="8b1ff79d-99d1-436b-be23-f65dee32800f"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>177</valueIndices>
+    <valueIndices>177</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="42945325-e9ae-4acb-8f18-88540fff150e">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c73713eb-b476-4e2e-b111-f1adb80a2441"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>203</valueIndices>
+    <valueIndices>203</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="42d0c1da-fed1-4956-9c80-94b545e518af">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="43da42cc-0b17-4ef7-b757-1ad3615a7640"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="6303b7d9-d1e2-48e1-9350-ce9471e56306"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="43da42cc-0b17-4ef7-b757-1ad3615a7640">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 2/Droop Controller Inverter2/Inverse Park Transform/Gain1</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="42d0c1da-fed1-4956-9c80-94b545e518af"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="6303b7d9-d1e2-48e1-9350-ce9471e56306">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="42d0c1da-fed1-4956-9c80-94b545e518af"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>180</valueIndices>
+    <valueIndices>180</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="be315464-c581-4160-a749-e50cd9a406d7">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="c9952e24-92d2-486b-b415-25eff06ae1a1"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="82027833-8904-4cba-9140-24b1c53d63e1"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="c9952e24-92d2-486b-b415-25eff06ae1a1">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 2/Droop Controller Inverter2/PWM Generator (Three-phase, Two-level)/Gate Signal Generator/Initial</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="be315464-c581-4160-a749-e50cd9a406d7"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="3f2a8b71-a06a-48e2-9ede-c2b58be68d7c">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Scopes/Sinusoidal Measurement (PLL, Three-Phase)1/Park Transform/Gain1</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ba54cd36-43db-4291-b51a-389b22bb3d41"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="53991fdf-14cb-432c-b614-835a0815ece0">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ba54cd36-43db-4291-b51a-389b22bb3d41"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>189</valueIndices>
+    <valueIndices>189</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="0bf463be-f307-4a01-b362-7d5813daeea7">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="eda10276-3e3e-4c9f-b573-d6cf08cbbebe"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="722cb5a0-a6e6-4e07-8453-57c43ad05054"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="eda10276-3e3e-4c9f-b573-d6cf08cbbebe">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Scopes/Sinusoidal Measurement (PLL, Three-Phase)1/PI/Integrator (Discrete or Continuous)/Discrete/Integrator</blockPath>
+    <name>UpperSaturationLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0bf463be-f307-4a01-b362-7d5813daeea7"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="72daed79-e925-4b32-9f14-1b7b1934a876">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="4c913c2b-4301-4498-95ef-df25f50bf575"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f942abf2-72fa-4130-999a-0756e79dbd81"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="722cb5a0-a6e6-4e07-8453-57c43ad05054">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0bf463be-f307-4a01-b362-7d5813daeea7"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>192</valueIndices>
+    <valueIndices>192</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="e37f0fa9-4f7a-46d4-babc-d3280d29db7b">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="ef6a48e2-26c5-4281-8ea4-46416a22bf5a"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="11ae369f-240a-41a3-8684-8fef7e194e33"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="ef6a48e2-26c5-4281-8ea4-46416a22bf5a">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Scopes/Sinusoidal Measurement (PLL, Three-Phase)1/PI/Integrator (Discrete or Continuous)/Discrete/Integrator</blockPath>
+    <name>LowerSaturationLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e37f0fa9-4f7a-46d4-babc-d3280d29db7b"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="11ae369f-240a-41a3-8684-8fef7e194e33">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="e37f0fa9-4f7a-46d4-babc-d3280d29db7b"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>193</valueIndices>
+    <valueIndices>193</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="53deaa49-5b72-4e37-bbeb-f6cd719ab7e8">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="d3c37fa1-8584-4499-92d2-555ecd4d9f94"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="71618220-e880-4f34-8d4f-0f58141ca1cc"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="d3c37fa1-8584-4499-92d2-555ecd4d9f94">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Scopes/Sinusoidal Measurement (PLL, Three-Phase)1/PI/Integrator (Discrete or Continuous)/Discrete/Saturation</blockPath>
+    <name>UpperLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="53deaa49-5b72-4e37-bbeb-f6cd719ab7e8"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="71618220-e880-4f34-8d4f-0f58141ca1cc">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="53deaa49-5b72-4e37-bbeb-f6cd719ab7e8"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>194</valueIndices>
+    <valueIndices>194</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="30986abb-3256-4684-80fd-288a39d9706a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="dd6791ab-84f0-47ea-999b-871c3f917879"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="5e62a439-a408-4068-a790-69da422c181b"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="dd6791ab-84f0-47ea-999b-871c3f917879">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Scopes/Sinusoidal Measurement (PLL, Three-Phase)1/PI/Integrator (Discrete or Continuous)/Discrete/Saturation</blockPath>
+    <name>LowerLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="30986abb-3256-4684-80fd-288a39d9706a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="5e62a439-a408-4068-a790-69da422c181b">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="30986abb-3256-4684-80fd-288a39d9706a"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>195</valueIndices>
+    <valueIndices>195</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="eaac8abf-fbd0-4ded-9d57-224649f36efa">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="e6e322cf-f2ac-4e48-a3d3-631437867678"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="a8e0505b-817d-47f0-b7ab-6d80f2121494"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="e6e322cf-f2ac-4e48-a3d3-631437867678">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Scopes/Sinusoidal Measurement (PLL, Three-Phase)/Park Transform/Gain1</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="eaac8abf-fbd0-4ded-9d57-224649f36efa"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="a8e0505b-817d-47f0-b7ab-6d80f2121494">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="eaac8abf-fbd0-4ded-9d57-224649f36efa"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>198</valueIndices>
+    <valueIndices>198</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="2f34f6dc-dee5-436a-b570-8c45951a8724">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="7aaca68f-3d99-4497-9f51-e15a933c42cc"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="281c9715-4c77-4b19-83ef-3f2763af6b34"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="281c9715-4c77-4b19-83ef-3f2763af6b34">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="2f34f6dc-dee5-436a-b570-8c45951a8724"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>201</valueIndices>
+    <valueIndices>201</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="fb9cb6c2-0c22-4e46-8d92-84b8d22c80eb">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="175f51ad-e20f-47f5-8bae-ddeb77c27649"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="38255c70-da38-49ff-b133-1e2cdcf11581"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="175f51ad-e20f-47f5-8bae-ddeb77c27649">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Scopes/Sinusoidal Measurement (PLL, Three-Phase)/PI/Integrator (Discrete or Continuous)/Discrete/Integrator</blockPath>
+    <name>LowerSaturationLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="fb9cb6c2-0c22-4e46-8d92-84b8d22c80eb"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="38255c70-da38-49ff-b133-1e2cdcf11581">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="fb9cb6c2-0c22-4e46-8d92-84b8d22c80eb"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>202</valueIndices>
+    <valueIndices>202</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="c73713eb-b476-4e2e-b111-f1adb80a2441">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="35067f0a-4558-4609-9ab9-b9fa08cd77bc"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="42945325-e9ae-4acb-8f18-88540fff150e"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="35067f0a-4558-4609-9ab9-b9fa08cd77bc">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Scopes/Sinusoidal Measurement (PLL, Three-Phase)/PI/Integrator (Discrete or Continuous)/Discrete/Saturation</blockPath>
+    <name>UpperLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c73713eb-b476-4e2e-b111-f1adb80a2441"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="895f3eaa-04e2-46eb-85b3-c0b5f5e51d19">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="7f624918-36ed-4241-bb90-643b2cb19ca1"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e26b3cd7-5405-45ad-a382-343debc9e269"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="7fc4de51-3f2c-4bbf-9ea2-cb11df3ef8ce">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="c66c2543-2562-4073-9ed6-4a0a789afadc"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="93f2d266-b513-4000-aeea-af9b0f80153b"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="7f624918-36ed-4241-bb90-643b2cb19ca1">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Scopes/Sinusoidal Measurement (PLL, Three-Phase)/PI/Integrator (Discrete or Continuous)/Discrete/Saturation</blockPath>
+    <name>LowerLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="895f3eaa-04e2-46eb-85b3-c0b5f5e51d19"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e26b3cd7-5405-45ad-a382-343debc9e269">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="895f3eaa-04e2-46eb-85b3-c0b5f5e51d19"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>204</valueIndices>
+    <valueIndices>204</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="4c913c2b-4301-4498-95ef-df25f50bf575">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 1/Droop Controller Inverter1/PWM Generator (Three-phase, Two-level)/Gate Signal Generator/Constant3</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="72daed79-e925-4b32-9f14-1b7b1934a876"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f942abf2-72fa-4130-999a-0756e79dbd81">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="72daed79-e925-4b32-9f14-1b7b1934a876"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>209</valueIndices>
+    <valueIndices>209</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="c66c2543-2562-4073-9ed6-4a0a789afadc">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 1/Droop Controller Inverter1/Power Measurement (Three-Phase)/Discrete/Sequence</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="7fc4de51-3f2c-4bbf-9ea2-cb11df3ef8ce"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="93f2d266-b513-4000-aeea-af9b0f80153b">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="7fc4de51-3f2c-4bbf-9ea2-cb11df3ef8ce"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>210</valueIndices>
+    <valueIndices>210</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ffcb6f26-ad4d-4325-b366-b79f7d4203f5">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="cd5e8ea8-3969-4e83-85e2-f0785e28bcfe"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d08f4d43-4e3c-4ccf-abee-7a69736122b8"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="cd5e8ea8-3969-4e83-85e2-f0785e28bcfe">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 2/Droop Controller Inverter2/PWM Generator (Three-phase, Two-level)/Gate Signal Generator/Constant3</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ffcb6f26-ad4d-4325-b366-b79f7d4203f5"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="4f1ddda8-b278-4853-9981-0247be64909b">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 2/Droop Controller Inverter2/Power Measurement (Three-Phase)/Discrete/Sequence</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="4ee0884e-b6f7-4ec9-9350-1473958e37f6"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="f1ab7bb3-a25c-4e22-a62d-156312fed7ad">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 2/Droop Controller Inverter2/PWM Generator (Three-phase, Two-level)/Switching Time Calculation</blockPath>
+    <name>PWM</name>
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="b0174436-a726-4cc9-8ba8-2918f1b3615d"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f19bec35-70b5-4d64-af41-c6328b3ea730">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="4ee0884e-b6f7-4ec9-9350-1473958e37f6"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>227</valueIndices>
+    <valueIndices>227</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.SFunctionParameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="b0174436-a726-4cc9-8ba8-2918f1b3615d">
+    <isInlined>true</isInlined>
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="f1ab7bb3-a25c-4e22-a62d-156312fed7ad"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="32f4fb37-1eac-48db-a842-750df76860a0"/>
+  </slsa.mm.param.rtp.SFunctionParameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="32f4fb37-1eac-48db-a842-750df76860a0">
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="b0174436-a726-4cc9-8ba8-2918f1b3615d"/>
+    <segmentIndex>5</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.SFunctionParameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="9a4df68b-50e1-4cd4-aae9-6cbe28de3dca">
+    <isInlined>true</isInlined>
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="a0bbc9a3-4ac8-4b20-b711-b9480f03bc14"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="22609da5-6519-4c61-9a92-f166d616cdf9"/>
+  </slsa.mm.param.rtp.SFunctionParameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="a0bbc9a3-4ac8-4b20-b711-b9480f03bc14">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 2/Droop Controller Inverter2/PWM Generator (Three-phase, Two-level)/Switching Time Calculation</blockPath>
+    <name>fsw</name>
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="9a4df68b-50e1-4cd4-aae9-6cbe28de3dca"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.SFunctionParameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="1db0d85b-6d33-432d-a9b5-cafd0d738bbf">
+    <isInlined>true</isInlined>
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="10b57c49-38e7-440e-8038-9276d82500af"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="74d6410f-eeda-43dd-b11a-85abb5c068cf"/>
+  </slsa.mm.param.rtp.SFunctionParameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="10b57c49-38e7-440e-8038-9276d82500af">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 1/Droop Controller Inverter1/PWM Generator (Three-phase, Two-level)/Switching Time Calculation</blockPath>
+    <name>PWM</name>
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="1db0d85b-6d33-432d-a9b5-cafd0d738bbf"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="74d6410f-eeda-43dd-b11a-85abb5c068cf">
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="1db0d85b-6d33-432d-a9b5-cafd0d738bbf"/>
+    <segmentIndex>6</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="8d890267-f6e7-42f1-8bdd-355cb8e4bc2b">
+    <blockPath>scd3busMicrogridDroopControlFidelityLevels3Inv/Inverter 1/Droop Controller Inverter1/PWM Generator (Three-phase, Two-level)/Switching Time Calculation</blockPath>
+    <name>fsw</name>
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="509c579e-f76e-4197-bf12-6c2ce9c09fcd"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c33e6c57-b457-42bf-be7b-7befcbf2446a">
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="509c579e-f76e-4197-bf12-6c2ce9c09fcd"/>
+    <segmentIndex>6</segmentIndex>
+    <valueIndices>1</valueIndices>
+    <valueIndices>1</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+</MF0>

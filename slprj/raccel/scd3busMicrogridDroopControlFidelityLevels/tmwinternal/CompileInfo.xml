@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/ci/19700101 http://schema.mathworks.com/mf0/sl_modelref_info/R2025a http://schema.mathworks.com/mf0/slexec_mm_sto/R2025a_202404151030 http://schema.mathworks.com/mf0/sltp_mm/R2025a_202406271200">
-  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="e4545302-4dbb-42b5-b447-a24107f78df4">
-    <JITEngines>s3AvrxbeylooEkuWu9hM6YF</JITEngines>
-    <JITEngines>sHucYKWiND6D6W7w6Ud1y1D</JITEngines>
+  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="8ca4e2b0-46dc-4b97-9477-197fd30efff9">
     <JITEngines>sWMro1aS916Z4rql7zUrxsC</JITEngines>
+    <JITEngines>sdbv0uehVgjXnjWppZSPXJF</JITEngines>
+    <JITEngines>sdgRoCBAcjVB7jU19Qal2vG</JITEngines>
     <JITEngines>snOAvZZP530QhlNIi49cDrD</JITEngines>
-    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="166c7079-80fb-4888-ae86-3dec9f05b05f">
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="54a9c290-0e5a-4687-80d0-ee1ffb8dd2f2">
       <modelName>scd3busMicrogridDroopControlFidelityLevels</modelName>
       <modelPath>scd3busMicrogridDroopControlFidelityLevels</modelPath>
     </childModelRefInfo>
-    <clockResolutions type="ModelRefInfoRepo.ClockResolutionInfo" uuid="7908b402-265d-49dd-8090-3a535d9494d5">
+    <clockResolutions type="ModelRefInfoRepo.ClockResolutionInfo" uuid="bf14b866-af15-49bb-b6ed-c42857198219">
       <rateIdx>3</rateIdx>
       <resolution>5e-06</resolution>
       <source>DeducedFromSampleTime</source>
     </clockResolutions>
-    <clockResolutions type="ModelRefInfoRepo.ClockResolutionInfo" uuid="5b328869-003f-4ec8-9ef3-3ddcdb669476">
+    <clockResolutions type="ModelRefInfoRepo.ClockResolutionInfo" uuid="749ab176-31ce-4bff-abc0-bd935af47591">
       <rateIdx>4</rateIdx>
       <resolution>.0001</resolution>
       <source>DeducedFromSampleTime</source>
     </clockResolutions>
     <compDerivCacheNeedsReset>false</compDerivCacheNeedsReset>
     <compZcCacheNeedsReset>false</compZcCacheNeedsReset>
-    <compiledTFinal>10.0</compiledTFinal>
-    <dataSourceInfo type="ModelRefInfoRepo.DataSourceInfo" uuid="17b00c7a-f830-4ed4-bd09-1e13b612294e">
-      <dataSources type="ModelRefInfoRepo.SourceInfo" uuid="483a0f82-ac2e-4a63-b757-bda4b4062064">
+    <compiledTFinal>24.0</compiledTFinal>
+    <dataSourceInfo type="ModelRefInfoRepo.DataSourceInfo" uuid="ba9c6643-7f35-4f4a-ba5c-2d7f58d36814">
+      <dataSources type="ModelRefInfoRepo.SourceInfo" uuid="1846a835-9ce7-4e37-a0c4-0a71661b1ba7">
         <includeAllSections>true</includeAllSections>
         <sourceName>base workspace</sourceName>
         <type>BaseWorkspace</type>
@@ -67,7 +67,7 @@
     <hasStatesModifiedInOutputUpdate>true</hasStatesModifiedInOutputUpdate>
     <hasVariantModelOrSubsystem>true</hasVariantModelOrSubsystem>
     <loggingSaveFormat>2</loggingSaveFormat>
-    <massMatrixNzMax>2</massMatrixNzMax>
+    <massMatrixNzMax>3</massMatrixNzMax>
     <maxFreqHz>-1.0</maxFreqHz>
     <needAbsoluteTimeDisallowInitPort>true</needAbsoluteTimeDisallowInitPort>
     <needsAbsoluteTime>true</needsAbsoluteTime>
@@ -77,15 +77,15 @@
     <nonTunableVariables>Vrms</nonTunableVariables>
     <nonTunableVariables>fgrid</nonTunableVariables>
     <nonTunableVariables>fsw_V</nonTunableVariables>
-    <numCStateRecs>2</numCStateRecs>
-    <numContinuousStates>2</numContinuousStates>
-    <numDStateRecs>95</numDStateRecs>
-    <numDStateRecsInMdl>95</numDStateRecsInMdl>
+    <numCStateRecs>3</numCStateRecs>
+    <numContinuousStates>3</numContinuousStates>
+    <numDStateRecs>141</numDStateRecs>
+    <numDStateRecsInMdl>141</numDStateRecsInMdl>
     <numDataInputPorts>0</numDataInputPorts>
-    <numLoggableCStateRecs>2</numLoggableCStateRecs>
-    <numLoggableDStateRecs>95</numLoggableDStateRecs>
-    <numLoggableDStateRecsInMdl>95</numLoggableDStateRecsInMdl>
-    <numLoggableJacobianDStates>80252</numLoggableJacobianDStates>
+    <numLoggableCStateRecs>3</numLoggableCStateRecs>
+    <numLoggableDStateRecs>141</numLoggableDStateRecs>
+    <numLoggableDStateRecsInMdl>141</numLoggableDStateRecsInMdl>
+    <numLoggableJacobianDStates>120361</numLoggableJacobianDStates>
     <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
       <compiled>true</compiled>
       <needAbsoluteTime>true</needAbsoluteTime>
@@ -140,7 +140,7 @@
     </runtimeNonFcnCallRateInfos>
     <sampleTimeInheritanceRule>2</sampleTimeInheritanceRule>
     <solverStatusFlags>33097</solverStatusFlags>
-    <standaloneEnumInfos type="ModelRefInfoRepo.StandaloneEnumInfo" uuid="f5d3233b-eda8-4d26-946f-fbcaf8c2c149">
+    <standaloneEnumInfos type="ModelRefInfoRepo.StandaloneEnumInfo" uuid="66c05a46-8de1-4fb7-8b87-923896334051">
       <defaultValue>Low</defaultValue>
       <enumName>scd3busMicrogridDroopControl_variants_enum</enumName>
       <labels>Low</labels>
@@ -153,135 +153,135 @@
     </standaloneEnumInfos>
     <timingAndTaskingRegistry>&lt;?xml version=&quot;1.0&quot;?&gt;
 &lt;slexec_sto version=&quot;1.1&quot; packageUris=&quot;http://schema.mathworks.com/mf0/slexec_mm_sto/R2025a_202404151030&quot;&gt;
-  &lt;sto.Registry type=&quot;sto.Registry&quot; uuid=&quot;da8a5bfc-35da-40ee-aa16-9a980a62c4e3&quot;&gt;
+  &lt;sto.Registry type=&quot;sto.Registry&quot; uuid=&quot;144120be-7130-4e2a-b9ef-29ee9780d1bf&quot;&gt;
     &lt;executionSpec&gt;Undetermined&lt;/executionSpec&gt;
     &lt;identifier&gt;scd3busMicrogridDroopControlFidelityLevels&lt;/identifier&gt;
-    &lt;clockRegistry type=&quot;sto.ClockRegistry&quot; uuid=&quot;cf206c1f-9622-4bae-af1a-a5ce59412824&quot;&gt;
-      &lt;clocks type=&quot;sto.Timer&quot; uuid=&quot;8e2d588f-0d2e-4dac-adb2-54c60e3a5eae&quot;&gt;
+    &lt;clockRegistry type=&quot;sto.ClockRegistry&quot; uuid=&quot;9036f479-b3db-421d-8879-951fb2a65bd6&quot;&gt;
+      &lt;clocks type=&quot;sto.Timer&quot; uuid=&quot;d8fa1387-b2b0-4932-9455-1da840833bf9&quot;&gt;
         &lt;computedFundamentalDiscretePeriod&gt;1e-06&lt;/computedFundamentalDiscretePeriod&gt;
-        &lt;fastestDiscreteRate type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;0ba5c045-fb4c-416b-827a-3ebfa1342e47&quot;/&gt;
+        &lt;fastestDiscreteRate type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;5d153f3a-6e0c-42eb-a999-0f8dd08a217f&quot;/&gt;
         &lt;isDefaultTimer&gt;true&lt;/isDefaultTimer&gt;
         &lt;identifier&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/identifier&gt;
-        &lt;rates type=&quot;sto.ContinuousRate&quot; uuid=&quot;1b4fc19c-f8e7-4840-9d3a-0a5858cc4002&quot;&gt;
+        &lt;rates type=&quot;sto.ContinuousRate&quot; uuid=&quot;e48e6c8f-9f26-45cf-8eb7-4d3c2494499b&quot;&gt;
           &lt;annotation&gt;Cont&lt;/annotation&gt;
           &lt;clockId&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/clockId&gt;
           &lt;colorIndex&gt;-1&lt;/colorIndex&gt;
           &lt;description&gt;Continuous&lt;/description&gt;
           &lt;taskId&gt;_task0&lt;/taskId&gt;
-          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;e95d8fab-1418-47e2-9784-8b5ed6689098&quot;/&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;f1f76118-e67e-490f-9fbd-476a11825774&quot;/&gt;
         &lt;/rates&gt;
-        &lt;rates type=&quot;sto.ZOHContinuousRate&quot; uuid=&quot;7b949d3f-b832-4f80-bcd0-8a039c08a2ce&quot;&gt;
+        &lt;rates type=&quot;sto.ZOHContinuousRate&quot; uuid=&quot;56e043c8-cbd1-44dd-9602-68187282b561&quot;&gt;
           &lt;annotation&gt;FiM&lt;/annotation&gt;
           &lt;clockId&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/clockId&gt;
           &lt;colorIndex&gt;-1&lt;/colorIndex&gt;
           &lt;description&gt;Fixed in Minor Step&lt;/description&gt;
           &lt;rateIdx&gt;1&lt;/rateIdx&gt;
           &lt;taskId&gt;_task0&lt;/taskId&gt;
-          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;d581869d-188c-4e2d-bb92-ebfd1fcf13f0&quot;&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;ab0cdd75-6bab-48c9-94df-0819ca515ebb&quot;&gt;
             &lt;offset&gt;1.0&lt;/offset&gt;
             &lt;rateType&gt;ZOHContinuous&lt;/rateType&gt;
           &lt;/rateSpec&gt;
         &lt;/rates&gt;
-        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;0ba5c045-fb4c-416b-827a-3ebfa1342e47&quot;&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;5d153f3a-6e0c-42eb-a999-0f8dd08a217f&quot;&gt;
           &lt;annotation&gt;D1&lt;/annotation&gt;
           &lt;clockId&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/clockId&gt;
           &lt;description&gt;Discrete 1&lt;/description&gt;
           &lt;rateIdx&gt;2&lt;/rateIdx&gt;
           &lt;taskId&gt;_task0&lt;/taskId&gt;
-          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;cd4d8e0d-8cf3-4fce-99e0-6358d389ed9d&quot;&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;5c4b7d6e-ce93-4132-89dd-5d5cd825851d&quot;&gt;
             &lt;period&gt;1e-06&lt;/period&gt;
             &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
           &lt;/rateSpec&gt;
         &lt;/rates&gt;
-        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;41f51e8e-0330-4747-a36e-8f8edb73a8f6&quot;&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;e8da2cfa-66fb-441a-89ff-a69a9d5a31d0&quot;&gt;
           &lt;annotation&gt;D2&lt;/annotation&gt;
           &lt;clockId&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/clockId&gt;
           &lt;colorIndex&gt;1&lt;/colorIndex&gt;
           &lt;description&gt;Discrete 2&lt;/description&gt;
           &lt;rateIdx&gt;3&lt;/rateIdx&gt;
           &lt;taskId&gt;_task0&lt;/taskId&gt;
-          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;1f544d17-aa70-42e7-aa3d-75c276c61939&quot;&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;3237ceef-a1a2-40a2-bced-aec3ddba5016&quot;&gt;
             &lt;period&gt;5e-06&lt;/period&gt;
             &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
           &lt;/rateSpec&gt;
         &lt;/rates&gt;
-        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;56915806-32dd-4256-af5f-f21969db9467&quot;&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;b7609c11-0a4b-4844-a6a1-faaa9a30d197&quot;&gt;
           &lt;annotation&gt;D3&lt;/annotation&gt;
           &lt;clockId&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/clockId&gt;
           &lt;colorIndex&gt;2&lt;/colorIndex&gt;
           &lt;description&gt;Discrete 3&lt;/description&gt;
           &lt;rateIdx&gt;4&lt;/rateIdx&gt;
           &lt;taskId&gt;_task0&lt;/taskId&gt;
-          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;52930c1f-956c-4743-8abf-55c8ebbd3589&quot;&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;e424f6e1-a990-4176-92b4-9fa293163077&quot;&gt;
             &lt;period&gt;.0001&lt;/period&gt;
             &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
           &lt;/rateSpec&gt;
         &lt;/rates&gt;
-        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;eb8df9f6-c496-43be-98c6-72b632a67582&quot;&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;0a21a086-626e-4a22-a4fd-a6eec734d3f4&quot;&gt;
           &lt;annotation&gt;D4&lt;/annotation&gt;
           &lt;clockId&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/clockId&gt;
           &lt;colorIndex&gt;3&lt;/colorIndex&gt;
           &lt;description&gt;Discrete 4&lt;/description&gt;
           &lt;rateIdx&gt;5&lt;/rateIdx&gt;
           &lt;taskId&gt;_task0&lt;/taskId&gt;
-          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;c742cae9-5fa2-4936-8c26-d0b28a78f24f&quot;&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;f3efc59a-2d9d-4e75-b9fe-16d85d5e760c&quot;&gt;
             &lt;period&gt;.01&lt;/period&gt;
             &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
           &lt;/rateSpec&gt;
         &lt;/rates&gt;
-        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;fefe7b4d-6c29-495e-94ff-47fdca9aefd1&quot;&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;1f27ef40-d13f-4410-a6a5-a5f7c28300e8&quot;&gt;
           &lt;annotation&gt;D5&lt;/annotation&gt;
           &lt;clockId&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/clockId&gt;
           &lt;colorIndex&gt;4&lt;/colorIndex&gt;
           &lt;description&gt;Discrete 5&lt;/description&gt;
           &lt;rateIdx&gt;6&lt;/rateIdx&gt;
           &lt;taskId&gt;_task0&lt;/taskId&gt;
-          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;5bcb9062-762f-4899-b313-be35b73f9fee&quot;&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;44bbe346-0031-450a-819b-adac21a82892&quot;&gt;
             &lt;period&gt;.02&lt;/period&gt;
             &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
           &lt;/rateSpec&gt;
         &lt;/rates&gt;
-        &lt;baseRate type=&quot;sto.ContinuousRate&quot; uuid=&quot;3c50fe26-cc9e-430c-9395-cb366f6faa0c&quot;&gt;
+        &lt;baseRate type=&quot;sto.ContinuousRate&quot; uuid=&quot;60f4ae03-6a44-43ce-8b70-6d389c2039d0&quot;&gt;
           &lt;annotation&gt;Cont&lt;/annotation&gt;
           &lt;clockId&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/clockId&gt;
           &lt;colorIndex&gt;-1&lt;/colorIndex&gt;
           &lt;description&gt;Continuous&lt;/description&gt;
           &lt;taskId&gt;_task0&lt;/taskId&gt;
-          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;83b92926-d843-4d17-b62b-6bbd1ddaebc4&quot;/&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;cf4e76c8-1335-42eb-ae27-0eac00f94222&quot;/&gt;
         &lt;/baseRate&gt;
       &lt;/clocks&gt;
-      &lt;clocks type=&quot;sto.Event&quot; uuid=&quot;11b17e14-80af-42ac-bf57-cb184dc86732&quot;&gt;
+      &lt;clocks type=&quot;sto.Event&quot; uuid=&quot;02772ccb-f026-4127-aae9-2150c18d9506&quot;&gt;
         &lt;eventType&gt;PARAMETER_CHANGE_EVENT&lt;/eventType&gt;
         &lt;cNum&gt;1&lt;/cNum&gt;
         &lt;clockType&gt;Event&lt;/clockType&gt;
         &lt;identifier&gt;ParameterChangeEvent&lt;/identifier&gt;
-        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;b988078f-8f85-450c-b2f5-b6dd95bfe737&quot;&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;f40deb95-a065-47cf-8581-05e61bdb424d&quot;&gt;
           &lt;annotation&gt;Inf&lt;/annotation&gt;
           &lt;clockId&gt;ParameterChangeEvent&lt;/clockId&gt;
           &lt;colorIndex&gt;-1&lt;/colorIndex&gt;
           &lt;description&gt;Constant&lt;/description&gt;
           &lt;rateIdx&gt;7&lt;/rateIdx&gt;
           &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
-          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;2387b34a-a832-4cf3-a6e6-69b666b0477b&quot;&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;7b10995c-784a-44e9-827f-8e3a5086142b&quot;&gt;
             &lt;period&gt;inf&lt;/period&gt;
             &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
           &lt;/rateSpec&gt;
         &lt;/rates&gt;
       &lt;/clocks&gt;
     &lt;/clockRegistry&gt;
-    &lt;taskRegistry type=&quot;sto.TaskRegistry&quot; uuid=&quot;7ff403db-c1d1-4e31-9988-426150b7a3cc&quot;&gt;
+    &lt;taskRegistry type=&quot;sto.TaskRegistry&quot; uuid=&quot;a9a0a803-b9a8-452a-bb2f-2fe3b660faad&quot;&gt;
       &lt;hasUnknownEdges&gt;true&lt;/hasUnknownEdges&gt;
-      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;cd6162c5-2e07-450d-928f-72deee3a97c2&quot;&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;ddad6d72-905d-493e-b31a-af716c250b66&quot;&gt;
         &lt;isExecutable&gt;true&lt;/isExecutable&gt;
         &lt;isExplicit&gt;true&lt;/isExplicit&gt;
-        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;6313829e-801c-48d1-9596-337b9653a29e&quot;&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;6771dd23-92b1-457b-8f56-0075dc51824c&quot;&gt;
           &lt;annotation&gt;Inf&lt;/annotation&gt;
           &lt;clockId&gt;ParameterChangeEvent&lt;/clockId&gt;
           &lt;colorIndex&gt;-1&lt;/colorIndex&gt;
           &lt;description&gt;Constant&lt;/description&gt;
           &lt;rateIdx&gt;7&lt;/rateIdx&gt;
           &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
-          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;b38a5d61-97c1-4fc8-afcd-44cbffc7eb73&quot;&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;1d17784e-1d27-4328-8b36-70104548c444&quot;&gt;
             &lt;period&gt;inf&lt;/period&gt;
             &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
           &lt;/rateSpec&gt;
@@ -293,84 +293,84 @@
         &lt;identifier&gt;ModelWideParameterChangeEvent&lt;/identifier&gt;
         &lt;priority&gt;-1&lt;/priority&gt;
       &lt;/rootTaskHierarchyElements&gt;
-      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;55793365-023d-4fbe-a199-3864a5a66ce0&quot;&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;a65e7b64-8745-4159-a20a-45c58eb6568f&quot;&gt;
         &lt;isExecutable&gt;true&lt;/isExecutable&gt;
         &lt;orderIndex&gt;1&lt;/orderIndex&gt;
-        &lt;rates type=&quot;sto.ContinuousRate&quot; uuid=&quot;e6c755f9-54aa-4d0d-8725-639d216016ad&quot;&gt;
+        &lt;rates type=&quot;sto.ContinuousRate&quot; uuid=&quot;ae3cff93-ef64-41ca-bba1-9c953122b920&quot;&gt;
           &lt;annotation&gt;Cont&lt;/annotation&gt;
           &lt;clockId&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/clockId&gt;
           &lt;colorIndex&gt;-1&lt;/colorIndex&gt;
           &lt;description&gt;Continuous&lt;/description&gt;
           &lt;taskId&gt;_task0&lt;/taskId&gt;
-          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;81183adc-24de-401c-985e-cf63ae16b606&quot;/&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;4fa09153-2c8d-4f71-92ca-10a646778536&quot;/&gt;
         &lt;/rates&gt;
-        &lt;rates type=&quot;sto.ZOHContinuousRate&quot; uuid=&quot;db8bb06f-8a08-438e-938c-90c5bd643786&quot;&gt;
+        &lt;rates type=&quot;sto.ZOHContinuousRate&quot; uuid=&quot;c2f3debf-93d3-4119-b4f2-406d45fa58af&quot;&gt;
           &lt;annotation&gt;FiM&lt;/annotation&gt;
           &lt;clockId&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/clockId&gt;
           &lt;colorIndex&gt;-1&lt;/colorIndex&gt;
           &lt;description&gt;Fixed in Minor Step&lt;/description&gt;
           &lt;rateIdx&gt;1&lt;/rateIdx&gt;
           &lt;taskId&gt;_task0&lt;/taskId&gt;
-          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;a3150b67-474b-4c4f-8f7b-a62eeed0aabf&quot;&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;7f5b3b10-917d-48af-abcd-93e535f33905&quot;&gt;
             &lt;offset&gt;1.0&lt;/offset&gt;
             &lt;rateType&gt;ZOHContinuous&lt;/rateType&gt;
           &lt;/rateSpec&gt;
         &lt;/rates&gt;
-        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;cc99ca18-e4df-420b-99d8-7e8dd1d6190b&quot;&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;ecfa9269-a208-4dcc-ba57-0a1a51e7de7e&quot;&gt;
           &lt;annotation&gt;D1&lt;/annotation&gt;
           &lt;clockId&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/clockId&gt;
           &lt;description&gt;Discrete 1&lt;/description&gt;
           &lt;rateIdx&gt;2&lt;/rateIdx&gt;
           &lt;taskId&gt;_task0&lt;/taskId&gt;
-          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;b3564f74-a476-4d61-b27e-51ab938dfb66&quot;&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;e2f16539-ede4-44b6-adbf-7b08fba2d133&quot;&gt;
             &lt;period&gt;1e-06&lt;/period&gt;
             &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
           &lt;/rateSpec&gt;
         &lt;/rates&gt;
-        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;d1b38ab6-e516-4fcb-914a-21af0e2a4827&quot;&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;500d04d0-85c4-4b23-8730-77ebda6fcd19&quot;&gt;
           &lt;annotation&gt;D2&lt;/annotation&gt;
           &lt;clockId&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/clockId&gt;
           &lt;colorIndex&gt;1&lt;/colorIndex&gt;
           &lt;description&gt;Discrete 2&lt;/description&gt;
           &lt;rateIdx&gt;3&lt;/rateIdx&gt;
           &lt;taskId&gt;_task0&lt;/taskId&gt;
-          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;843ea9f5-4dac-4440-b89d-5ed804724633&quot;&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;84815e22-12d2-4555-8e2f-ad6e29ddd3a7&quot;&gt;
             &lt;period&gt;5e-06&lt;/period&gt;
             &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
           &lt;/rateSpec&gt;
         &lt;/rates&gt;
-        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;0b788c20-e29c-4c98-80ff-fb2d109b1335&quot;&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;c3e69a07-6f47-403f-9924-1e3432014b75&quot;&gt;
           &lt;annotation&gt;D3&lt;/annotation&gt;
           &lt;clockId&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/clockId&gt;
           &lt;colorIndex&gt;2&lt;/colorIndex&gt;
           &lt;description&gt;Discrete 3&lt;/description&gt;
           &lt;rateIdx&gt;4&lt;/rateIdx&gt;
           &lt;taskId&gt;_task0&lt;/taskId&gt;
-          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;74b6da8e-6ddd-4685-892c-11889950150b&quot;&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;13810c82-1bbc-4f9e-8451-3e2a0cf6ffc9&quot;&gt;
             &lt;period&gt;.0001&lt;/period&gt;
             &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
           &lt;/rateSpec&gt;
         &lt;/rates&gt;
-        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;d4776720-62db-4b7c-9cfb-a0a40537eb4d&quot;&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;787c78ec-6811-4b05-9d92-329a066ddcca&quot;&gt;
           &lt;annotation&gt;D4&lt;/annotation&gt;
           &lt;clockId&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/clockId&gt;
           &lt;colorIndex&gt;3&lt;/colorIndex&gt;
           &lt;description&gt;Discrete 4&lt;/description&gt;
           &lt;rateIdx&gt;5&lt;/rateIdx&gt;
           &lt;taskId&gt;_task0&lt;/taskId&gt;
-          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;82fad25e-2648-469c-a398-8b6ad15e70ae&quot;&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;d2768843-e345-4774-b657-1bddacbcd7b5&quot;&gt;
             &lt;period&gt;.01&lt;/period&gt;
             &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
           &lt;/rateSpec&gt;
         &lt;/rates&gt;
-        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;c802a4e4-92ce-47f9-a863-9b3cda999179&quot;&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;c0622dde-4b36-4776-ad41-147997ff4d43&quot;&gt;
           &lt;annotation&gt;D5&lt;/annotation&gt;
           &lt;clockId&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/clockId&gt;
           &lt;colorIndex&gt;4&lt;/colorIndex&gt;
           &lt;description&gt;Discrete 5&lt;/description&gt;
           &lt;rateIdx&gt;6&lt;/rateIdx&gt;
           &lt;taskId&gt;_task0&lt;/taskId&gt;
-          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;df6114ad-a211-431d-a167-b0e49afa8274&quot;&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;27874135-0afc-4b76-ba45-712eab36eeda&quot;&gt;
             &lt;period&gt;.02&lt;/period&gt;
             &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
           &lt;/rateSpec&gt;
@@ -381,40 +381,40 @@
         &lt;identifier&gt;_task0&lt;/identifier&gt;
         &lt;priority&gt;40&lt;/priority&gt;
       &lt;/rootTaskHierarchyElements&gt;
-      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;6fee9022-4a48-410c-86bd-b8012584fb8c&quot;&gt;
-        &lt;clockIdentifier&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/clockIdentifier&gt;
-        &lt;taskIdentifier&gt;_task0&lt;/taskIdentifier&gt;
-      &lt;/taskDependencyGraph&gt;
-      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;b461770b-d39a-4272-bf07-60cb90cacdf2&quot;&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;e92d0ac2-0e85-44ec-b66b-63f397850d98&quot;&gt;
         &lt;clockIdentifier&gt;ParameterChangeEvent&lt;/clockIdentifier&gt;
-        &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;2b109632-d0ba-4329-a157-499e189717e1&quot;&gt;
+        &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;e398168a-cf10-4f3f-a1ec-4fcd9ce3dba8&quot;&gt;
           &lt;targetClockIdentifier&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/targetClockIdentifier&gt;
           &lt;targetTaskIdentifier&gt;_task0&lt;/targetTaskIdentifier&gt;
         &lt;/serializedConnectionProperties&gt;
         &lt;taskIdentifier&gt;ModelWideParameterChangeEvent&lt;/taskIdentifier&gt;
       &lt;/taskDependencyGraph&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;6438e93e-a0b2-47e5-b14e-c66f41893ca6&quot;&gt;
+        &lt;clockIdentifier&gt;scd3busMicrogridDroopControlFidelityLevels::defaultTimer&lt;/clockIdentifier&gt;
+        &lt;taskIdentifier&gt;_task0&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
       &lt;taskPriorityDirection&gt;HighNumberLast&lt;/taskPriorityDirection&gt;
     &lt;/taskRegistry&gt;
   &lt;/sto.Registry&gt;
 &lt;/slexec_sto&gt;</timingAndTaskingRegistry>
-    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="bfb3a88c-d85e-4a80-9aba-61f7564329f8">
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="e8e1a81b-79c8-44f4-b149-f283d05b1972">
       <direction>7</direction>
       <isDiscrete>false</isDiscrete>
       <name>StepTime</name>
       <tolerance>-1.0</tolerance>
       <width>1</width>
     </zeroCrossingInfo>
-    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="c3e565c9-ccf7-4281-97dc-653de1b74629">
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="a8f70661-b78b-4122-9970-a12e04ea7955">
       <direction>7</direction>
       <isDiscrete>false</isDiscrete>
       <name>StepTime</name>
       <tolerance>-1.0</tolerance>
       <width>1</width>
     </zeroCrossingInfo>
-    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="0a8e770a-6bc9-4fbc-984a-fcda68310a9f"/>
-    <codeGenInfo type="ModelRefInfoRepo.CodeGenInformation" uuid="0de33373-0045-4b8e-abf8-1f7230859ef6"/>
-    <compiledVariantInfos type="ModelRefInfoRepo.CompiledVariantInfoMap" uuid="446e684b-7c42-4855-b137-a724ed110851"/>
-    <configSettingsForConsistencyChecks type="ModelRefInfoRepo.ConfigSettingsForConsistencyChecks" uuid="73073327-586c-4978-aa8b-29c4543d0112">
+    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="0e984d0f-34e8-4842-951a-cf7c9a118681"/>
+    <codeGenInfo type="ModelRefInfoRepo.CodeGenInformation" uuid="52db212c-77f3-4b76-8499-d136997f5732"/>
+    <compiledVariantInfos type="ModelRefInfoRepo.CompiledVariantInfoMap" uuid="79d187f8-ec18-46a5-a4ca-6a00680b7bdd"/>
+    <configSettingsForConsistencyChecks type="ModelRefInfoRepo.ConfigSettingsForConsistencyChecks" uuid="ff0ee3a1-aaa3-463c-8fc3-23ef1c9cf192">
       <consistentOutportInitialization>true</consistentOutportInitialization>
       <dateTimeAtTZero>0.0</dateTimeAtTZero>
       <dateTimeAtTZero>0.0</dateTimeAtTZero>
@@ -423,11 +423,11 @@
       <dateTimeAtTZero>0.0</dateTimeAtTZero>
       <dateTimeAtTZero>0.0</dateTimeAtTZero>
       <frameDiagnosticSetting>2</frameDiagnosticSetting>
-      <maxStepSize>.2</maxStepSize>
+      <maxStepSize>.48</maxStepSize>
       <signalLoggingSaveFormat>2</signalLoggingSaveFormat>
       <simSIMDOptimization>1</simSIMDOptimization>
       <solverName>ode15s</solverName>
-      <hardwareSettings type="ModelRefInfoRepo.HardwareSettings" uuid="1144108b-6180-4ecf-a0bb-d56742103b6b">
+      <hardwareSettings type="ModelRefInfoRepo.HardwareSettings" uuid="04343107-9bab-4940-bbfc-2dde7c573083">
         <prodBitPerChar>8</prodBitPerChar>
         <prodBitPerDouble>64</prodBitPerDouble>
         <prodBitPerFloat>32</prodBitPerFloat>
@@ -443,68 +443,68 @@
         <prodWordSize>64</prodWordSize>
       </hardwareSettings>
     </configSettingsForConsistencyChecks>
-    <controllableInputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="5773560e-26b9-4228-a50f-1beda582a5d5"/>
-    <controllableOutputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="c0783b5e-6450-4f41-98a4-1a44d047e63b"/>
-    <dataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="e4f8bd2b-24b8-4d1b-83bd-d45c7d364915"/>
-    <expFcnUnconnectedDataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="bcd4e4d5-d5ee-4bf0-bf5d-f6bc7143d760"/>
-    <interfaceParameterInfo type="ModelRefInfoRepo.InterfaceParameterInfo" uuid="a83b37f1-648a-4a4c-b6ff-d3dce5e7ce80">
-      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="d4bb91ec-c472-4c13-90be-cb4f331513d0">
+    <controllableInputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="96d39477-5721-455c-8ad1-b8299931e230"/>
+    <controllableOutputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="b039f656-bfe7-4d96-8815-9d498987604a"/>
+    <dataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="d6a00ce3-5c76-43c8-850c-a676346883b2"/>
+    <expFcnUnconnectedDataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="c3b5ffd6-d22d-4cdd-b201-74ea53d3ba2c"/>
+    <interfaceParameterInfo type="ModelRefInfoRepo.InterfaceParameterInfo" uuid="56b6abc1-647c-47d4-a88e-45ffcf8dc7b3">
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="bec33f08-7a9a-4e88-b051-3c7e154541c3">
         <dimensions>1</dimensions>
         <dimensions>1</dimensions>
         <isUsed>true</isUsed>
         <numDimensions>2</numDimensions>
         <parameterName>Kdroop_fp1</parameterName>
       </globalVariables>
-      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="7bfc3b40-abd0-41e4-823d-12edcbc66841">
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="eda26c30-6181-4642-9c14-f630e048f782">
         <dimensions>1</dimensions>
         <dimensions>1</dimensions>
         <isUsed>true</isUsed>
         <numDimensions>2</numDimensions>
         <parameterName>Kdroop_fp2</parameterName>
       </globalVariables>
-      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="1f9c991f-0d99-4878-8354-0cae1a95e0b3">
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="d5e745d6-efd0-41c0-94d1-afa9c03a2f3a">
         <dimensions>1</dimensions>
         <dimensions>1</dimensions>
         <isUsed>true</isUsed>
         <numDimensions>2</numDimensions>
         <parameterName>Kdroop_vq1</parameterName>
       </globalVariables>
-      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="efe4219d-6148-46bb-a5d4-4ee8585f37c9">
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="de22538d-a5ac-40b5-8609-d6d80eae32cf">
         <dimensions>1</dimensions>
         <dimensions>1</dimensions>
         <isUsed>true</isUsed>
         <numDimensions>2</numDimensions>
         <parameterName>Kdroop_vq2</parameterName>
       </globalVariables>
-      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="5538300f-204d-45d0-864b-e747658970a4">
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="fa2ef4c4-eeb9-4be3-8bc2-8bbb74cbcc7a">
         <dimensions>1</dimensions>
         <dimensions>1</dimensions>
         <isUsed>true</isUsed>
         <numDimensions>2</numDimensions>
         <parameterName>Ki_vd</parameterName>
       </globalVariables>
-      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="00725f5a-2674-49e2-a09c-c6beaf06fbcb">
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="2ff00712-49f7-4473-8a04-62088573e573">
         <dimensions>1</dimensions>
         <dimensions>1</dimensions>
         <isUsed>true</isUsed>
         <numDimensions>2</numDimensions>
         <parameterName>Ki_vq</parameterName>
       </globalVariables>
-      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="883fc16b-3609-42d0-84e6-31dba3c0ec11">
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="98370e08-897d-4e16-9c6a-dd533c130874">
         <dimensions>1</dimensions>
         <dimensions>1</dimensions>
         <isUsed>true</isUsed>
         <numDimensions>2</numDimensions>
         <parameterName>Kp_vd</parameterName>
       </globalVariables>
-      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="b7f95ea6-fd60-4dcd-9b63-27c77ca6ee6b">
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="b107a92b-a365-4986-a1e2-13f3eff806ab">
         <dimensions>1</dimensions>
         <dimensions>1</dimensions>
         <isUsed>true</isUsed>
         <numDimensions>2</numDimensions>
         <parameterName>Kp_vq</parameterName>
       </globalVariables>
-      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="8622432f-9331-444b-8b0a-2eae5f0085d6">
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="4dc0ef47-5ca7-4f7d-ab33-d09ce806fb4f">
         <dimensions>1</dimensions>
         <dimensions>1</dimensions>
         <isUsed>true</isUsed>
@@ -512,21 +512,21 @@
         <numDimensions>2</numDimensions>
         <parameterName>Ts</parameterName>
       </globalVariables>
-      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="f2fe9a3b-3ff8-49de-a104-5e032e6fbf5b">
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="9987d6b4-1446-4ed9-854d-5eb265950c50">
         <dimensions>1</dimensions>
         <dimensions>1</dimensions>
         <isUsed>true</isUsed>
         <numDimensions>2</numDimensions>
         <parameterName>Vdc1</parameterName>
       </globalVariables>
-      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="63f49080-62d8-4cb4-a89a-1e3c9f9d1c7b">
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="8e0f3880-40ae-4e30-9694-47463fc2e03f">
         <dimensions>1</dimensions>
         <dimensions>1</dimensions>
         <isUsed>true</isUsed>
         <numDimensions>2</numDimensions>
         <parameterName>Vdc2</parameterName>
       </globalVariables>
-      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="fec5486b-be03-4bf2-9ca6-f9ae4d3691d8">
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="aa90337f-57ea-45ba-a5df-9b36f64da033">
         <dimensions>1</dimensions>
         <dimensions>1</dimensions>
         <isUsed>true</isUsed>
@@ -534,14 +534,14 @@
         <numDimensions>2</numDimensions>
         <parameterName>Vrms</parameterName>
       </globalVariables>
-      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="8bd1cdea-41b9-42de-8ad0-e4e50e5a456b">
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="aeb0981f-41b8-44cd-a33d-8dbf65af60db">
         <dimensions>1</dimensions>
         <dimensions>1</dimensions>
         <isUsed>true</isUsed>
         <numDimensions>2</numDimensions>
         <parameterName>consensus_enable</parameterName>
       </globalVariables>
-      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="9f7315d2-806d-42bf-8f08-4e9449f6b43e">
+      <globalVariables type="ModelRefInfoRepo.BuiltinParameter" uuid="981108b1-eb34-4674-89c8-a563cb963da3">
         <dimensions>1</dimensions>
         <dimensions>1</dimensions>
         <isUsed>true</isUsed>
@@ -550,8 +550,8 @@
         <parameterName>fgrid</parameterName>
       </globalVariables>
     </interfaceParameterInfo>
-    <messageInfo type="ModelRefInfoRepo.MessageInformation" uuid="4f5a5c38-5729-4b73-a0c6-be9d5e53dd83"/>
-    <methodInfo type="ModelRefInfoRepo.MethodExistenceInfo" uuid="e6b1e4cf-3259-4a79-96ff-b2dcc923b4ac">
+    <messageInfo type="ModelRefInfoRepo.MessageInformation" uuid="c3116e70-f61a-403a-a8bf-8cf5c0ced702"/>
+    <methodInfo type="ModelRefInfoRepo.MethodExistenceInfo" uuid="8cf4f9be-b075-44fa-aed3-3ea8959f754b">
       <hasDerivMethod>true</hasDerivMethod>
       <hasDisableMethod>true</hasDisableMethod>
       <hasEnableMethod>true</hasEnableMethod>
@@ -561,32 +561,32 @@
       <hasTerminateMethod>true</hasTerminateMethod>
       <hasUpdateMethod>true</hasUpdateMethod>
     </methodInfo>
-    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="321a7593-8ad3-4cd5-b368-1e5277a70f1d">
-      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Droop Controller Inverter1/PWM Generator (Three-phase, Two-level)/Gate Signal Generator/Rate Transition</deterministicRTBs>
-      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Droop Controller Inverter1/PWM Generator (Three-phase, Two-level)/Gate Signal Generator/Rate Transition1</deterministicRTBs>
-      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Droop Controller Inverter1/PWM Generator (Three-phase, Two-level)/RTabc</deterministicRTBs>
-      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Droop Controller Inverter1/PWM Generator (Three-phase, Two-level)/RTdc</deterministicRTBs>
-      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Droop Controller Inverter2/PWM Generator (Three-phase, Two-level)/Gate Signal Generator/Rate Transition</deterministicRTBs>
-      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Droop Controller Inverter2/PWM Generator (Three-phase, Two-level)/Gate Signal Generator/Rate Transition1</deterministicRTBs>
-      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Droop Controller Inverter2/PWM Generator (Three-phase, Two-level)/RTabc</deterministicRTBs>
-      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Droop Controller Inverter2/PWM Generator (Three-phase, Two-level)/RTdc</deterministicRTBs>
-      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Scopes/Rate Transition3</deterministicRTBs>
-      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Scopes/Rate Transition4</deterministicRTBs>
+    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="5be40cb9-953b-4b66-a665-e4e838aa19f5">
+      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Inverter 1/Droop Controller Inverter1/PWM Generator (Three-phase, Two-level)/Gate Signal Generator/Rate Transition</deterministicRTBs>
+      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Inverter 1/Droop Controller Inverter1/PWM Generator (Three-phase, Two-level)/Gate Signal Generator/Rate Transition1</deterministicRTBs>
+      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Inverter 1/Droop Controller Inverter1/PWM Generator (Three-phase, Two-level)/RTabc</deterministicRTBs>
+      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Inverter 1/Droop Controller Inverter1/PWM Generator (Three-phase, Two-level)/RTdc</deterministicRTBs>
+      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Inverter 2/Droop Controller Inverter2/PWM Generator (Three-phase, Two-level)/Gate Signal Generator/Rate Transition</deterministicRTBs>
+      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Inverter 2/Droop Controller Inverter2/PWM Generator (Three-phase, Two-level)/Gate Signal Generator/Rate Transition1</deterministicRTBs>
+      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Inverter 2/Droop Controller Inverter2/PWM Generator (Three-phase, Two-level)/RTabc</deterministicRTBs>
+      <deterministicRTBs>scd3busMicrogridDroopControlFidelityLevels/Inverter 2/Droop Controller Inverter2/PWM Generator (Three-phase, Two-level)/RTdc</deterministicRTBs>
+      <multiRateBlocks>scd3busMicrogridDroopControlFidelityLevels/Inverter 2/Solver Configuration/EVAL_KEY/INPUT_10_1_1</multiRateBlocks>
+      <multiRateBlocks>scd3busMicrogridDroopControlFidelityLevels/Inverter 2/Solver Configuration/EVAL_KEY/INPUT_11_1_1</multiRateBlocks>
     </periodicEventPortUnsupportedBlockInfo>
-    <portGroupsRequireSameRate type="ModelRefInfoRepo.PortGroupsRequireSameRate" uuid="b5b8040c-4553-456f-845b-512d58043b73">
-      <DSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="d1d461e9-d997-4765-9dba-6fb830ca0f60"/>
-      <GlobalDSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="eb324b0e-5635-44a8-8caf-d680c76bbd69"/>
-      <mergedPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="be84bb1e-f834-410e-9e21-c72ee048c08f"/>
+    <portGroupsRequireSameRate type="ModelRefInfoRepo.PortGroupsRequireSameRate" uuid="1ccb6044-ffa6-41b9-bcbb-b2b2750ffb8c">
+      <DSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="2eb25aad-6b58-4dac-aac5-46c5755ab5f9"/>
+      <GlobalDSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="0af08997-b00c-4d58-8930-059e6485ae12"/>
+      <mergedPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="86e2a089-4b19-45ce-b3bf-6364b8849305"/>
     </portGroupsRequireSameRate>
-    <rateBasedMdlGlobalDSMRateSpec type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="b2e46106-263e-48a8-bb24-53f36bb82889"/>
-    <rateSpecOfGlobalDSMAccessedByDescExpFcnMdlMap type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="29d2ff0e-1b73-4435-895d-c1982de9b910"/>
-    <rootBlockDiagramInterface type="ci.Model" uuid="54d12a46-bc38-420f-bf12-78064d4a13b3">
-      <p_RootComponentInterface type="ci.ComponentInterface" uuid="85e60caa-e67b-406c-8a15-13a428a64bb6">
+    <rateBasedMdlGlobalDSMRateSpec type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="06a3bf9b-e95f-4f49-a885-a6a6f4af8175"/>
+    <rateSpecOfGlobalDSMAccessedByDescExpFcnMdlMap type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="6383450b-d257-4a65-be92-0b4644d6802e"/>
+    <rootBlockDiagramInterface type="ci.Model" uuid="524e3856-b0f3-4fdd-b537-076506d58c2f">
+      <p_RootComponentInterface type="ci.ComponentInterface" uuid="4547821c-0791-4e39-995e-8973143eac7a">
         <p_Name>scd3busMicrogridDroopControlFidelityLevels</p_Name>
         <p_Type>ROOT</p_Type>
       </p_RootComponentInterface>
     </rootBlockDiagramInterface>
-    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="28c06820-6b45-41b5-81d1-91a4686a1b24">
+    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="8a158519-8eef-4f2c-a451-7fa5a3a0a466">
       <compSimulinkFunctionCatalog></compSimulinkFunctionCatalog>
     </simulinkFunctions>
     <sltpContext type="sltp.mm.core.Context" uuid="2f241f82-a032-4352-9dc2-8e6188b3669a">
@@ -687,19 +687,19 @@
         </subgraph>
       </rootTask>
     </sltpContext>
-    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="63fd6f22-4888-44f5-b7d9-234a34341fdb"/>
-    <stoClientDataRegistry type="sto.ClientDataRegistry" uuid="089f580f-ae88-4690-9cc5-dcdb88fba304">
-      <dataSets type="sto.ClientClockNamedDataSet" uuid="bb17a772-7a2b-458a-8aef-43092c94d10a">
+    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="da76e00c-978b-454f-88a9-814973778cbf"/>
+    <stoClientDataRegistry type="sto.ClientDataRegistry" uuid="e0fe2d46-8056-458e-9208-30fe0b9d99ba">
+      <dataSets type="sto.ClientClockNamedDataSet" uuid="f9bbd3c5-1626-48d9-b44b-6d4f5872702e">
         <tag>sltpEvents</tag>
       </dataSets>
-      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="fe6252fa-4407-47ec-8e38-2820f2a3fae3">
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="b6d3c6ef-0898-4461-9efa-5ef285538687">
         <tag>sltpTaskGroups</tag>
       </dataSets>
-      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="a5db2f1e-9b2a-45b3-b1c1-69704b7b55ae">
-        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="6cc1e369-89ed-4752-a6b5-10fffda95ab4"/>
-        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="6cc1e369-89ed-4752-a6b5-10fffda95ab4">
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="5aa49cdb-03ad-4839-9d3a-f97e18a6f1ca">
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="b68c3d10-a1bd-4008-87d1-4d15acc62a73"/>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="b68c3d10-a1bd-4008-87d1-4d15acc62a73">
           <dataName>Cont</dataName>
-          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="a5db2f1e-9b2a-45b3-b1c1-69704b7b55ae"/>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="5aa49cdb-03ad-4839-9d3a-f97e18a6f1ca"/>
           <id type="sto.TaskHierarchyElementId">
             <clockId>scd3busMicrogridDroopControlFidelityLevels::defaultTimer</clockId>
             <id>_task0</id>
@@ -708,111 +708,111 @@
         <tag>sltpTasks</tag>
       </dataSets>
     </stoClientDataRegistry>
-    <typeTable type="type_info.TypeTable" uuid="c0155033-eb28-4bf0-bd8f-5cd574160b4e">
-      <Types type="type_info.Type" uuid="9e21ea66-59d1-4fa2-86e8-b764307bf580">
+    <typeTable type="type_info.TypeTable" uuid="0f4c486c-fabe-4505-98db-e0bf656adb25">
+      <Types type="type_info.Type" uuid="cda7309b-0f3a-441a-aa7f-ef9dfe7f1433">
         <DataTypeId>12</DataTypeId>
         <Size>8</Size>
         <Name>action</Name>
       </Types>
-      <Types type="type_info.NumericType" uuid="8cf42968-888c-48c2-aef5-aefb1e9fb2af">
+      <Types type="type_info.NumericType" uuid="03f8c450-3395-4282-8d6c-8fd02331aba0">
         <DataTypeId>8</DataTypeId>
         <MxClassId>3</MxClassId>
         <Size>1</Size>
         <typeEnum>NUMERIC</typeEnum>
         <Name>boolean</Name>
       </Types>
-      <Types type="type_info.NumericType" uuid="768b1dd8-ee5e-4585-9203-4d00bb5d7ad5">
+      <Types type="type_info.NumericType" uuid="fd3c4232-c0ac-4c8e-b0c1-949fcb7f1864">
         <MxClassId>6</MxClassId>
         <Size>8</Size>
         <typeEnum>NUMERIC</typeEnum>
         <Name>double</Name>
       </Types>
-      <Types type="type_info.Type" uuid="55b51f78-d661-462b-b664-3af22a21182a">
+      <Types type="type_info.Type" uuid="4520a667-81bd-4a6f-bc31-2268f267f53f">
         <DataTypeId>9</DataTypeId>
         <Name>fcn_call</Name>
       </Types>
-      <Types type="type_info.NumericType" uuid="a88e6013-e784-41b0-a2c5-05b229f0a826">
+      <Types type="type_info.NumericType" uuid="6475b73f-9010-456a-bb4d-7765df53cd41">
         <DataTypeId>4</DataTypeId>
         <MxClassId>10</MxClassId>
         <Size>2</Size>
         <typeEnum>NUMERIC</typeEnum>
         <Name>int16</Name>
       </Types>
-      <Types type="type_info.NumericType" uuid="cbfa6ce1-887e-4f76-8186-f7104f39c489">
+      <Types type="type_info.NumericType" uuid="f8eb3b6a-dc14-4e8e-bd60-9c79c6437dda">
         <DataTypeId>6</DataTypeId>
         <MxClassId>12</MxClassId>
         <Size>4</Size>
         <typeEnum>NUMERIC</typeEnum>
         <Name>int32</Name>
       </Types>
-      <Types type="type_info.FixedPointType" uuid="e46ea403-efef-4f3e-b011-f68bc0173286">
+      <Types type="type_info.FixedPointType" uuid="ad33a72a-1d7a-40ee-a3af-9e2d0195bdf5">
         <DataTypeId>15</DataTypeId>
         <Size>8</Size>
         <typeEnum>FIXPOINT</typeEnum>
         <Name>int64</Name>
       </Types>
-      <Types type="type_info.NumericType" uuid="b07f0ed0-6319-4bef-a38f-45e469c8eebe">
+      <Types type="type_info.NumericType" uuid="baf5809c-0d08-4339-8c05-a6e057065aed">
         <DataTypeId>2</DataTypeId>
         <MxClassId>8</MxClassId>
         <Size>1</Size>
         <typeEnum>NUMERIC</typeEnum>
         <Name>int8</Name>
       </Types>
-      <Types type="type_info.Type" uuid="3f1f757a-f523-4b4d-a66d-3398989ea2f9">
+      <Types type="type_info.Type" uuid="130a32ac-d087-45dd-b4d1-d16b7889212c">
         <DataTypeId>10</DataTypeId>
         <MxClassId>12</MxClassId>
         <Size>4</Size>
         <Name>integer</Name>
       </Types>
-      <Types type="type_info.Type" uuid="8ed23bcd-9f0b-40c1-b414-bab5ed167851">
+      <Types type="type_info.Type" uuid="8682f34c-48a3-42f9-82f2-b06a3ecea266">
         <DataTypeId>14</DataTypeId>
         <Size>8</Size>
         <Name>physical_connection</Name>
       </Types>
-      <Types type="type_info.Type" uuid="32ad850f-5808-48e3-91d1-f5c9ff4315a5">
+      <Types type="type_info.Type" uuid="07b45498-4750-40ba-82a1-4384dc50ed51">
         <DataTypeId>11</DataTypeId>
         <Size>8</Size>
         <Name>pointer</Name>
       </Types>
-      <Types type="type_info.EnumType" uuid="d9c43b23-eda6-446e-90fc-18a3233ebe1d">
+      <Types type="type_info.EnumType" uuid="5c4710f8-8ea4-461c-8440-3e9315a89266">
         <DataTypeId>17</DataTypeId>
         <Size>4</Size>
         <typeEnum>ENUM</typeEnum>
         <Name>scd3busMicrogridDroopControl_variants_enum</Name>
       </Types>
-      <Types type="type_info.NumericType" uuid="beb4bd35-bd1d-41ba-bcd4-5652a444b1f5">
+      <Types type="type_info.NumericType" uuid="5e638f8e-ca38-4e46-9289-df3c9e94542b">
         <DataTypeId>1</DataTypeId>
         <MxClassId>7</MxClassId>
         <Size>4</Size>
         <typeEnum>NUMERIC</typeEnum>
         <Name>single</Name>
       </Types>
-      <Types type="type_info.Type" uuid="4b9f4565-dee4-4d98-874b-75caf6c7241b">
+      <Types type="type_info.Type" uuid="7a669fbc-d576-4630-837a-fdb30026d43a">
         <DataTypeId>13</DataTypeId>
         <Size>8</Size>
         <Name>timer_uint32_pair</Name>
       </Types>
-      <Types type="type_info.NumericType" uuid="c54b27e1-1ad6-4d32-a5c5-19af9e632acc">
+      <Types type="type_info.NumericType" uuid="42bcde28-0118-489f-9d0e-b82ab85afe1f">
         <DataTypeId>5</DataTypeId>
         <MxClassId>11</MxClassId>
         <Size>2</Size>
         <typeEnum>NUMERIC</typeEnum>
         <Name>uint16</Name>
       </Types>
-      <Types type="type_info.NumericType" uuid="cef1c912-d2a5-4ecc-ad29-5356cee1ab0d">
+      <Types type="type_info.NumericType" uuid="15fa4e72-e5ef-4aa8-8ac3-babd97e896d5">
         <DataTypeId>7</DataTypeId>
         <MxClassId>13</MxClassId>
         <Size>4</Size>
         <typeEnum>NUMERIC</typeEnum>
         <Name>uint32</Name>
       </Types>
-      <Types type="type_info.FixedPointType" uuid="a37aeb43-a702-4f6a-ae96-931eacb73836">
+      <Types type="type_info.FixedPointType" uuid="10a15057-4d65-4115-b693-6f894cce5dd3">
         <DataTypeId>16</DataTypeId>
         <Size>8</Size>
         <typeEnum>FIXPOINT</typeEnum>
         <Name>uint64</Name>
       </Types>
-      <Types type="type_info.NumericType" uuid="93f2bd9a-a53f-4fdb-8fe5-f28133b8609d">
+      <Types type="type_info.NumericType" uuid="4426792f-5ba2-456c-8036-c4a46a16efe6">
         <DataTypeId>3</DataTypeId>
         <MxClassId>9</MxClassId>
         <Size>1</Size>
@@ -821,6 +821,6 @@
       </Types>
       <isInitialized>true</isInitialized>
     </typeTable>
-    <varTsUIDMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="1f55c4a8-4493-4852-b377-f3088c033f86"/>
+    <varTsUIDMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="2aa28982-6cb6-4a7b-95d0-020b118e8e1d"/>
   </ModelRefInfoRepo.ModelRefInfoRoot>
 </MF0>

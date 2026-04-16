@@ -6,33 +6,6 @@
 #include "scd3busMicrogridDroopControlFidelityLevels_c0dbec00_1_ds_external_struct.h"
 #include "ssc_ml_fun.h"
 int32_T scd3busMicrogridDroopControlFidelityLevels_c0dbec00_1_ds_duf ( const
-NeDynamicSystem * LC , const NeDynamicSystemInput * t19 , NeDsMethodOutput *
-out ) { real_T intermediate_der554 ; real_T intermediate_der555 ; real_T t18
-; real_T zc_int14 ; ( void ) LC ; if ( t19 -> mM . mX [ 4ULL ] != 0 ) { t18 =
-0.99 ; } else { t18 = t19 -> mM . mX [ 5ULL ] != 0 ? 0.0 : t19 -> mU . mX [
-14ULL ] ; } if ( t19 -> mM . mX [ 7ULL ] != 0 ) { zc_int14 = 0.99 ; } else {
-zc_int14 = t19 -> mM . mX [ 8ULL ] != 0 ? 0.0 : t19 -> mU . mX [ 16ULL ] ; }
-if ( t19 -> mM . mX [ 4ULL ] != 0 ) { intermediate_der554 = 0.0 ; } else {
-intermediate_der554 = ( real_T ) ( t19 -> mM . mX [ 5ULL ] == 0 ) ; } if ( t19
--> mM . mX [ 7ULL ] != 0 ) { intermediate_der555 = 0.0 ; } else {
-intermediate_der555 = ( real_T ) ( t19 -> mM . mX [ 8ULL ] == 0 ) ; } if ( t19
--> mM . mX [ 39ULL ] != 0 ) { out -> mDUF . mX [ 2ULL ] = - ( ( ( t19 -> mX .
-mX [ 92ULL ] - 298.15 ) * 0.000499942933005141 + 1.0 ) * 70.98003855255601 /
-1000.0 ) ; } else { out -> mDUF . mX [ 2ULL ] = 0.0 ; } if ( t19 -> mM . mX [
-43ULL ] != 0 ) { out -> mDUF . mX [ 5ULL ] = - ( ( ( t19 -> mX . mX [ 103ULL
-] - 298.15 ) * 0.000499942933005141 + 1.0 ) * 70.98003855255601 / 1000.0 ) ;
-} else { out -> mDUF . mX [ 5ULL ] = 0.0 ; } t18 = ( 1.0 - t18 ) * ( 1.0 -
-t18 ) ; out -> mDUF . mX [ 0ULL ] = - ( - intermediate_der554 * ( - t19 -> mX
-. mX [ 91ULL ] / ( t18 == 0.0 ? 1.0E-16 : t18 ) ) ) ; out -> mDUF . mX [ 1ULL
-] = - ( - intermediate_der554 * ( - ( ( ( ( ( ( ( t19 -> mX . mX [ 67ULL ] *
-1.0E-12 - t19 -> mX . mX [ 77ULL ] ) - t19 -> mX . mX [ 82ULL ] ) - t19 -> mX
-. mX [ 87ULL ] ) - t19 -> mX . mX [ 68ULL ] ) + t19 -> mX . mX [ 76ULL ] ) +
-t19 -> mX . mX [ 81ULL ] ) + t19 -> mX . mX [ 86ULL ] ) / ( t18 == 0.0 ?
-1.0E-16 : t18 ) ) ) ; t18 = ( 1.0 - zc_int14 ) * ( 1.0 - zc_int14 ) ; out ->
-mDUF . mX [ 3ULL ] = - ( - intermediate_der555 * ( - t19 -> mX . mX [ 102ULL
-] / ( t18 == 0.0 ? 1.0E-16 : t18 ) ) ) ; out -> mDUF . mX [ 4ULL ] = - ( -
-intermediate_der555 * ( - ( ( ( ( ( ( ( t19 -> mX . mX [ 44ULL ] * 1.0E-12 -
-t19 -> mX . mX [ 54ULL ] ) - t19 -> mX . mX [ 59ULL ] ) - t19 -> mX . mX [
-64ULL ] ) - t19 -> mX . mX [ 45ULL ] ) + t19 -> mX . mX [ 53ULL ] ) + t19 ->
-mX . mX [ 58ULL ] ) + t19 -> mX . mX [ 63ULL ] ) / ( t18 == 0.0 ? 1.0E-16 :
-t18 ) ) ) ; ( void ) LC ; ( void ) out ; return 0 ; }
+NeDynamicSystem * LC , const NeDynamicSystemInput * t28 , NeDsMethodOutput *
+out ) { real_T intermediate_der775 ; real_T intermediate_der781 ; real_T
+intermediate_der782 ; real_T zc_int18 ; real_T zc_int20 ; real_T zc_int22 ; ( void ) LC ; if ( t28 -> mM . mX [ 10ULL ] != 0 ) { zc_int18 = 0.99 ; } else { zc_int18 = t28 -> mM . mX [ 11ULL ] != 0 ? 0.0 : t28 -> mU . mX [ 8ULL ] ; } if ( t28 -> mM . mX [ 14ULL ] != 0 ) { zc_int20 = 0.99 ; } else { zc_int20 = t28 -> mM . mX [ 15ULL ] != 0 ? 0.0 : t28 -> mU . mX [ 16ULL ] ; } if ( t28 -> mM . mX [ 17ULL ] != 0 ) { zc_int22 = 0.99 ; } else { zc_int22 = t28 -> mM . mX [ 18ULL ] != 0 ? 0.0 : t28 -> mU . mX [ 24ULL ] ; } if ( t28 -> mM . mX [ 10ULL ] != 0 ) { intermediate_der775 = 0.0 ; } else { intermediate_der775 = ( real_T ) ( t28 -> mM . mX [ 11ULL ] == 0 ) ; } if ( t28 -> mM . mX [ 14ULL ] != 0 ) { intermediate_der781 = 0.0 ; } else { intermediate_der781 = ( real_T ) ( t28 -> mM . mX [ 15ULL ] == 0 ) ; } if ( t28 -> mM . mX [ 17ULL ] != 0 ) { intermediate_der782 = 0.0 ; } else { intermediate_der782 = ( real_T ) ( t28 -> mM . mX [ 18ULL ] == 0 ) ; } if ( t28 -> mM . mX [ 36ULL ] != 0 ) { out -> mDUF . mX [ 2ULL ] = - ( ( ( t28 -> mX . mX [ 79ULL ] - 298.15 ) * 0.000499942933005141 + 1.0 ) * 70.98003855255601 / 1000.0 ) ; } else { out -> mDUF . mX [ 2ULL ] = 0.0 ; } if ( t28 -> mM . mX [ 53ULL ] != 0 ) { out -> mDUF . mX [ 5ULL ] = - ( ( ( t28 -> mX . mX [ 113ULL ] - 298.15 ) * 0.000499942933005141 + 1.0 ) * 70.98003855255601 / 1000.0 ) ; } else { out -> mDUF . mX [ 5ULL ] = 0.0 ; } if ( t28 -> mM . mX [ 69ULL ] != 0 ) { out -> mDUF . mX [ 8ULL ] = - ( ( ( t28 -> mX . mX [ 144ULL ] - 298.15 ) * 0.000499942933005141 + 1.0 ) * 70.98003855255601 / 1000.0 ) ; } else { out -> mDUF . mX [ 8ULL ] = 0.0 ; } zc_int18 = ( 1.0 - zc_int18 ) * ( 1.0 - zc_int18 ) ; out -> mDUF . mX [ 0ULL ] = - ( - intermediate_der775 * ( - t28 -> mX . mX [ 78ULL ] / ( zc_int18 == 0.0 ? 1.0E-16 : zc_int18 ) ) ) ; out -> mDUF . mX [ 1ULL ] = - ( - intermediate_der775 * ( - ( ( ( ( ( ( ( t28 -> mX . mX [ 54ULL ] * 1.0E-12 - t28 -> mX . mX [ 64ULL ] ) - t28 -> mX . mX [ 69ULL ] ) - t28 -> mX . mX [ 74ULL ] ) - t28 -> mX . mX [ 55ULL ] ) + t28 -> mX . mX [ 63ULL ] ) + t28 -> mX . mX [ 68ULL ] ) + t28 -> mX . mX [ 73ULL ] ) / ( zc_int18 == 0.0 ? 1.0E-16 : zc_int18 ) ) ) ; zc_int18 = ( 1.0 - zc_int20 ) * ( 1.0 - zc_int20 ) ; out -> mDUF . mX [ 3ULL ] = - ( - intermediate_der781 * ( - t28 -> mX . mX [ 112ULL ] / ( zc_int18 == 0.0 ? 1.0E-16 : zc_int18 ) ) ) ; out -> mDUF . mX [ 4ULL ] = - ( - intermediate_der781 * ( - ( ( ( ( ( ( ( t28 -> mX . mX [ 88ULL ] * 1.0E-12 - t28 -> mX . mX [ 98ULL ] ) - t28 -> mX . mX [ 103ULL ] ) - t28 -> mX . mX [ 108ULL ] ) - t28 -> mX . mX [ 89ULL ] ) + t28 -> mX . mX [ 97ULL ] ) + t28 -> mX . mX [ 102ULL ] ) + t28 -> mX . mX [ 107ULL ] ) / ( zc_int18 == 0.0 ? 1.0E-16 : zc_int18 ) ) ) ; zc_int18 = ( 1.0 - zc_int22 ) * ( 1.0 - zc_int22 ) ; out -> mDUF . mX [ 6ULL ] = - ( - intermediate_der782 * ( - t28 -> mX . mX [ 143ULL ] / ( zc_int18 == 0.0 ? 1.0E-16 : zc_int18 ) ) ) ; out -> mDUF . mX [ 7ULL ] = - ( - intermediate_der782 * ( - ( ( ( ( ( ( ( t28 -> mX . mX [ 122ULL ] * 1.0E-12 - t28 -> mX . mX [ 129ULL ] ) - t28 -> mX . mX [ 134ULL ] ) - t28 -> mX . mX [ 139ULL ] ) - t28 -> mX . mX [ 123ULL ] ) + t28 -> mX . mX [ 128ULL ] ) + t28 -> mX . mX [ 133ULL ] ) + t28 -> mX . mX [ 138ULL ] ) / ( zc_int18 == 0.0 ? 1.0E-16 : zc_int18 ) ) ) ; ( void ) LC ; ( void ) out ; return 0 ; }

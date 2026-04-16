@@ -6,63 +6,26 @@
 #include "scd3busMicrogridDroopControlFidelityLevels_c0dbec00_1_ds_external_struct.h"
 #include "ssc_ml_fun.h"
 int32_T scd3busMicrogridDroopControlFidelityLevels_c0dbec00_1_ds_assert ( const
-NeDynamicSystem * LC , const NeDynamicSystemInput * t12 , NeDsMethodOutput *
-out ) { real_T Solar2_Solar_Cell_diode1_private_Diode_v_diode ; real_T
-intrm_sf_mf_36 ; real_T intrm_sf_mf_42 ; real_T intrm_sf_mf_47 ; real_T t10 ;
-real_T t11 ; real_T t3 ; real_T t4 ; real_T t6 ; real_T t8 ; boolean_T t0 ;
-boolean_T t1 ; ( void ) LC ; if ( t12 -> mU . mX [ 14ULL ] >= 0.99 ) {
-intrm_sf_mf_36 = 0.99 ; } else { intrm_sf_mf_36 = t12 -> mU . mX [ 14ULL ] <=
-0.0 ? 0.0 : t12 -> mU . mX [ 14ULL ] ; } t3 = ( t12 -> mX . mX [ 91ULL ] * -
-0.99920634920634921 + t12 -> mX . mX [ 93ULL ] ) * 1.602176487E-19 ; t4 = t12
--> mX . mX [ 97ULL ] * 2.0864177915013142E-23 ; intrm_sf_mf_42 = t3 / ( t4 ==
-0.0 ? 1.0E-16 : t4 ) ; t6 = t12 -> mX . mX [ 98ULL ] * 3.5932794656167223E-23
-; intrm_sf_mf_47 = t3 / ( t6 == 0.0 ? 1.0E-16 : t6 ) ; if ( t12 -> mU . mX [
-16ULL ] >= 0.99 ) { t3 = 0.99 ; } else { t3 = t12 -> mU . mX [ 16ULL ] <= 0.0
-? 0.0 : t12 -> mU . mX [ 16ULL ] ; } t11 = ( t12 -> mX . mX [ 102ULL ] * -
-0.99920634920634921 + t12 -> mX . mX [ 104ULL ] ) * 1.602176487E-19 ; t8 =
-t12 -> mX . mX [ 108ULL ] * 2.0864177915013142E-23 ;
-Solar2_Solar_Cell_diode1_private_Diode_v_diode = t11 / ( t8 == 0.0 ? 1.0E-16
-: t8 ) ; t10 = t12 -> mX . mX [ 109ULL ] * 3.5932794656167223E-23 ; t11 /=
-t10 == 0.0 ? 1.0E-16 : t10 ; if ( t12 -> mU . mX [ 14ULL ] >= 0.0 ) { t0 = ( t12
--> mU . mX [ 14ULL ] <= 0.99 ) ; } else { t0 = false ; } if ( t12 -> mU . mX
-[ 16ULL ] >= 0.0 ) { t1 = ( t12 -> mU . mX [ 16ULL ] <= 0.99 ) ; } else { t1
-= false ; } out -> mASSERT . mX [ 0ULL ] = ( int32_T ) ( t12 -> mM . mX [
-46ULL ] != 0 ) ; out -> mASSERT . mX [ 1ULL ] = ( int32_T ) t0 ; out ->
-mASSERT . mX [ 2ULL ] = ( int32_T ) ( t12 -> mM . mX [ 47ULL ] != 0 ) ; out
--> mASSERT . mX [ 3ULL ] = ( int32_T ) ( t12 -> mM . mX [ 48ULL ] != 0 ) ;
-out -> mASSERT . mX [ 4ULL ] = ( int32_T ) t1 ; out -> mASSERT . mX [ 5ULL ]
-= ( int32_T ) ( t12 -> mM . mX [ 49ULL ] != 0 ) ; out -> mASSERT . mX [ 6ULL
-] = ( int32_T ) ( t12 -> mX . mX [ 97ULL ] / 298.15 >= 0.0 ) ; out -> mASSERT
-. mX [ 7ULL ] = ( int32_T ) ( t12 -> mX . mX [ 97ULL ] *
-2.0864177915013142E-23 != 0.0 ) ; out -> mASSERT . mX [ 8ULL ] = ( int32_T )
-( ( ! ( t12 -> mX . mX [ 97ULL ] * 2.0864177915013142E-23 != 0.0 ) ) || ( ( 1.0
-- t12 -> mX . mX [ 97ULL ] / 298.15 ) * ( - 1.7944376352000002E-19 / ( t4 ==
-0.0 ? 1.0E-16 : t4 ) ) < 663.67513503334737 ) ) ; out -> mASSERT . mX [ 9ULL
-] = ( int32_T ) ( t12 -> mX . mX [ 97ULL ] * 2.0864177915013142E-23 != 0.0 )
-; out -> mASSERT . mX [ 10ULL ] = ( int32_T ) ( t12 -> mX . mX [ 98ULL ] /
-298.15 >= 0.0 ) ; out -> mASSERT . mX [ 11ULL ] = ( int32_T ) ( t12 -> mX .
-mX [ 98ULL ] * 3.5932794656167223E-23 != 0.0 ) ; out -> mASSERT . mX [ 12ULL
-] = ( int32_T ) ( ( ! ( t12 -> mX . mX [ 98ULL ] * 3.5932794656167223E-23 !=
-0.0 ) ) || ( ( 1.0 - t12 -> mX . mX [ 98ULL ] / 298.15 ) * ( -
-1.7944376352000002E-19 / ( t6 == 0.0 ? 1.0E-16 : t6 ) ) < 663.67513503334737
-) ) ; out -> mASSERT . mX [ 13ULL ] = ( int32_T ) ( t12 -> mX . mX [ 98ULL ]
-* 3.5932794656167223E-23 != 0.0 ) ; out -> mASSERT . mX [ 14ULL ] = ( int32_T
-) ( t12 -> mX . mX [ 108ULL ] / 298.15 >= 0.0 ) ; out -> mASSERT . mX [ 15ULL
-] = ( int32_T ) ( t12 -> mX . mX [ 108ULL ] * 2.0864177915013142E-23 != 0.0 )
-; out -> mASSERT . mX [ 16ULL ] = ( int32_T ) ( ( ! ( t12 -> mX . mX [ 108ULL
-] * 2.0864177915013142E-23 != 0.0 ) ) || ( ( 1.0 - t12 -> mX . mX [ 108ULL ]
-/ 298.15 ) * ( - 1.7944376352000002E-19 / ( t8 == 0.0 ? 1.0E-16 : t8 ) ) <
-663.67513503334737 ) ) ; out -> mASSERT . mX [ 17ULL ] = ( int32_T ) ( t12 ->
-mX . mX [ 108ULL ] * 2.0864177915013142E-23 != 0.0 ) ; out -> mASSERT . mX [
-18ULL ] = ( int32_T ) ( t12 -> mX . mX [ 109ULL ] / 298.15 >= 0.0 ) ; out ->
-mASSERT . mX [ 19ULL ] = ( int32_T ) ( t12 -> mX . mX [ 109ULL ] *
-3.5932794656167223E-23 != 0.0 ) ; out -> mASSERT . mX [ 20ULL ] = ( int32_T )
-( ( ! ( t12 -> mX . mX [ 109ULL ] * 3.5932794656167223E-23 != 0.0 ) ) || ( ( 1.0
-- t12 -> mX . mX [ 109ULL ] / 298.15 ) * ( - 1.7944376352000002E-19 / ( t10
-== 0.0 ? 1.0E-16 : t10 ) ) < 663.67513503334737 ) ) ; out -> mASSERT . mX [
-21ULL ] = ( int32_T ) ( t12 -> mX . mX [ 109ULL ] * 3.5932794656167223E-23 !=
-0.0 ) ; out -> mASSERT . mX [ 22ULL ] = ( int32_T ) ( 1.0 - intrm_sf_mf_36 !=
-0.0 ) ; out -> mASSERT . mX [ 23ULL ] = ( int32_T ) ( 1.0 - intrm_sf_mf_36 !=
-0.0 ) ; out -> mASSERT . mX [ 24ULL ] = ( int32_T ) ( ( intrm_sf_mf_42 <
-663.67513503334737 ) || ( intrm_sf_mf_42 > 80.0 ) ) ; out -> mASSERT . mX [
-25ULL ] = ( int32_T ) ( ( intrm_sf_mf_47 < 663.67513503334737 ) || ( intrm_sf_mf_47 > 80.0 ) ) ; out -> mASSERT . mX [ 26ULL ] = ( int32_T ) ( t12 -> mX . mX [ 99ULL ] / 298.15 != 0.0 ) ; out -> mASSERT . mX [ 27ULL ] = ( int32_T ) ( t12 -> mX . mX [ 100ULL ] / 298.15 >= 0.0 ) ; out -> mASSERT . mX [ 28ULL ] = ( int32_T ) ( 1.0 - t3 != 0.0 ) ; out -> mASSERT . mX [ 29ULL ] = ( int32_T ) ( 1.0 - t3 != 0.0 ) ; out -> mASSERT . mX [ 30ULL ] = ( int32_T ) ( ( Solar2_Solar_Cell_diode1_private_Diode_v_diode < 663.67513503334737 ) || ( Solar2_Solar_Cell_diode1_private_Diode_v_diode > 80.0 ) ) ; out -> mASSERT . mX [ 31ULL ] = ( int32_T ) ( ( t11 < 663.67513503334737 ) || ( t11 > 80.0 ) ) ; out -> mASSERT . mX [ 32ULL ] = ( int32_T ) ( t12 -> mX . mX [ 110ULL ] / 298.15 != 0.0 ) ; out -> mASSERT . mX [ 33ULL ] = ( int32_T ) ( t12 -> mX . mX [ 111ULL ] / 298.15 >= 0.0 ) ; ( void ) LC ; ( void ) out ; return 0 ; }
+NeDynamicSystem * LC , const NeDynamicSystemInput * t36 , NeDsMethodOutput *
+out ) { real_T Inverter_2_Solar1_Solar_Cell_diode1_private_Diode_v_diode ;
+real_T intrm_sf_mf_18 ; real_T intrm_sf_mf_29 ; real_T intrm_sf_mf_59 ;
+real_T intrm_sf_mf_84 ; real_T t11 ; real_T t12 ; real_T t13 ; real_T t15 ;
+real_T t22 ; real_T t35 ; real_T t4 ; real_T t7 ; real_T t8 ; real_T t9 ;
+boolean_T t0 ; boolean_T t1 ; boolean_T t2 ; ( void ) LC ; if ( t36 -> mU .
+mX [ 8ULL ] >= 0.99 ) { intrm_sf_mf_18 = 0.99 ; } else { intrm_sf_mf_18 = t36
+-> mU . mX [ 8ULL ] <= 0.0 ? 0.0 : t36 -> mU . mX [ 8ULL ] ; } t4 = ( t36 ->
+mX . mX [ 78ULL ] * - 0.99920634920634921 + t36 -> mX . mX [ 80ULL ] ) *
+1.602176487E-19 ; t22 = t36 -> mX . mX [ 84ULL ] * 2.0864177915013142E-23 ;
+t35 = t4 / ( t22 == 0.0 ? 1.0E-16 : t22 ) ; t7 = t36 -> mX . mX [ 85ULL ] *
+3.5932794656167223E-23 ; intrm_sf_mf_29 = t4 / ( t7 == 0.0 ? 1.0E-16 : t7 ) ;
+if ( t36 -> mU . mX [ 16ULL ] >= 0.99 ) { t4 = 0.99 ; } else { t4 = t36 -> mU
+. mX [ 16ULL ] <= 0.0 ? 0.0 : t36 -> mU . mX [ 16ULL ] ; } t8 = ( t36 -> mX .
+mX [ 112ULL ] * - 0.99920634920634921 + t36 -> mX . mX [ 114ULL ] ) *
+1.602176487E-19 ; t9 = t36 -> mX . mX [ 118ULL ] * 2.0864177915013142E-23 ;
+Inverter_2_Solar1_Solar_Cell_diode1_private_Diode_v_diode = t8 / ( t9 == 0.0
+? 1.0E-16 : t9 ) ; t11 = t36 -> mX . mX [ 119ULL ] * 3.5932794656167223E-23 ;
+intrm_sf_mf_59 = t8 / ( t11 == 0.0 ? 1.0E-16 : t11 ) ; if ( t36 -> mU . mX [
+24ULL ] >= 0.99 ) { t8 = 0.99 ; } else { t8 = t36 -> mU . mX [ 24ULL ] <= 0.0
+? 0.0 : t36 -> mU . mX [ 24ULL ] ; } t12 = ( t36 -> mX . mX [ 143ULL ] * -
+0.99920634920634921 + t36 -> mX . mX [ 145ULL ] ) * 1.602176487E-19 ; t13 =
+t36 -> mX . mX [ 149ULL ] * 2.0864177915013142E-23 ; intrm_sf_mf_84 = t12 / ( t13 == 0.0 ? 1.0E-16 : t13 ) ; t15 = t36 -> mX . mX [ 150ULL ] * 3.5932794656167223E-23 ; t12 /= t15 == 0.0 ? 1.0E-16 : t15 ; if ( t36 -> mU . mX [ 8ULL ] >= 0.0 ) { t0 = ( t36 -> mU . mX [ 8ULL ] <= 0.99 ) ; } else { t0 = false ; } if ( t36 -> mU . mX [ 16ULL ] >= 0.0 ) { t1 = ( t36 -> mU . mX [ 16ULL ] <= 0.99 ) ; } else { t1 = false ; } if ( t36 -> mU . mX [ 24ULL ] >= 0.0 ) { t2 = ( t36 -> mU . mX [ 24ULL ] <= 0.99 ) ; } else { t2 = false ; } out -> mASSERT . mX [ 0ULL ] = ( int32_T ) ( t36 -> mM . mX [ 72ULL ] != 0 ) ; out -> mASSERT . mX [ 1ULL ] = ( int32_T ) t0 ; out -> mASSERT . mX [ 2ULL ] = ( int32_T ) ( t36 -> mM . mX [ 73ULL ] != 0 ) ; out -> mASSERT . mX [ 3ULL ] = ( int32_T ) ( t36 -> mM . mX [ 75ULL ] != 0 ) ; out -> mASSERT . mX [ 4ULL ] = ( int32_T ) t1 ; out -> mASSERT . mX [ 5ULL ] = ( int32_T ) ( t36 -> mM . mX [ 76ULL ] != 0 ) ; out -> mASSERT . mX [ 6ULL ] = ( int32_T ) ( t36 -> mM . mX [ 77ULL ] != 0 ) ; out -> mASSERT . mX [ 7ULL ] = ( int32_T ) t2 ; out -> mASSERT . mX [ 8ULL ] = ( int32_T ) ( t36 -> mM . mX [ 78ULL ] != 0 ) ; out -> mASSERT . mX [ 9ULL ] = ( int32_T ) ( t36 -> mX . mX [ 84ULL ] / 298.15 >= 0.0 ) ; out -> mASSERT . mX [ 10ULL ] = ( int32_T ) ( t36 -> mX . mX [ 84ULL ] * 2.0864177915013142E-23 != 0.0 ) ; out -> mASSERT . mX [ 11ULL ] = ( int32_T ) ( ( ! ( t36 -> mX . mX [ 84ULL ] * 2.0864177915013142E-23 != 0.0 ) ) || ( ( 1.0 - t36 -> mX . mX [ 84ULL ] / 298.15 ) * ( - 1.7944376352000002E-19 / ( t22 == 0.0 ? 1.0E-16 : t22 ) ) < 663.67513503334737 ) ) ; out -> mASSERT . mX [ 12ULL ] = ( int32_T ) ( t36 -> mX . mX [ 84ULL ] * 2.0864177915013142E-23 != 0.0 ) ; out -> mASSERT . mX [ 13ULL ] = ( int32_T ) ( t36 -> mX . mX [ 85ULL ] / 298.15 >= 0.0 ) ; out -> mASSERT . mX [ 14ULL ] = ( int32_T ) ( t36 -> mX . mX [ 85ULL ] * 3.5932794656167223E-23 != 0.0 ) ; out -> mASSERT . mX [ 15ULL ] = ( int32_T ) ( ( ! ( t36 -> mX . mX [ 85ULL ] * 3.5932794656167223E-23 != 0.0 ) ) || ( ( 1.0 - t36 -> mX . mX [ 85ULL ] / 298.15 ) * ( - 1.7944376352000002E-19 / ( t7 == 0.0 ? 1.0E-16 : t7 ) ) < 663.67513503334737 ) ) ; out -> mASSERT . mX [ 16ULL ] = ( int32_T ) ( t36 -> mX . mX [ 85ULL ] * 3.5932794656167223E-23 != 0.0 ) ; out -> mASSERT . mX [ 17ULL ] = ( int32_T ) ( t36 -> mX . mX [ 118ULL ] / 298.15 >= 0.0 ) ; out -> mASSERT . mX [ 18ULL ] = ( int32_T ) ( t36 -> mX . mX [ 118ULL ] * 2.0864177915013142E-23 != 0.0 ) ; out -> mASSERT . mX [ 19ULL ] = ( int32_T ) ( ( ! ( t36 -> mX . mX [ 118ULL ] * 2.0864177915013142E-23 != 0.0 ) ) || ( ( 1.0 - t36 -> mX . mX [ 118ULL ] / 298.15 ) * ( - 1.7944376352000002E-19 / ( t9 == 0.0 ? 1.0E-16 : t9 ) ) < 663.67513503334737 ) ) ; out -> mASSERT . mX [ 20ULL ] = ( int32_T ) ( t36 -> mX . mX [ 118ULL ] * 2.0864177915013142E-23 != 0.0 ) ; out -> mASSERT . mX [ 21ULL ] = ( int32_T ) ( t36 -> mX . mX [ 119ULL ] / 298.15 >= 0.0 ) ; out -> mASSERT . mX [ 22ULL ] = ( int32_T ) ( t36 -> mX . mX [ 119ULL ] * 3.5932794656167223E-23 != 0.0 ) ; out -> mASSERT . mX [ 23ULL ] = ( int32_T ) ( ( ! ( t36 -> mX . mX [ 119ULL ] * 3.5932794656167223E-23 != 0.0 ) ) || ( ( 1.0 - t36 -> mX . mX [ 119ULL ] / 298.15 ) * ( - 1.7944376352000002E-19 / ( t11 == 0.0 ? 1.0E-16 : t11 ) ) < 663.67513503334737 ) ) ; out -> mASSERT . mX [ 24ULL ] = ( int32_T ) ( t36 -> mX . mX [ 119ULL ] * 3.5932794656167223E-23 != 0.0 ) ; out -> mASSERT . mX [ 25ULL ] = ( int32_T ) ( t36 -> mX . mX [ 149ULL ] / 298.15 >= 0.0 ) ; out -> mASSERT . mX [ 26ULL ] = ( int32_T ) ( t36 -> mX . mX [ 149ULL ] * 2.0864177915013142E-23 != 0.0 ) ; out -> mASSERT . mX [ 27ULL ] = ( int32_T ) ( ( ! ( t36 -> mX . mX [ 149ULL ] * 2.0864177915013142E-23 != 0.0 ) ) || ( ( 1.0 - t36 -> mX . mX [ 149ULL ] / 298.15 ) * ( - 1.7944376352000002E-19 / ( t13 == 0.0 ? 1.0E-16 : t13 ) ) < 663.67513503334737 ) ) ; out -> mASSERT . mX [ 28ULL ] = ( int32_T ) ( t36 -> mX . mX [ 149ULL ] * 2.0864177915013142E-23 != 0.0 ) ; out -> mASSERT . mX [ 29ULL ] = ( int32_T ) ( t36 -> mX . mX [ 150ULL ] / 298.15 >= 0.0 ) ; out -> mASSERT . mX [ 30ULL ] = ( int32_T ) ( t36 -> mX . mX [ 150ULL ] * 3.5932794656167223E-23 != 0.0 ) ; out -> mASSERT . mX [ 31ULL ] = ( int32_T ) ( ( ! ( t36 -> mX . mX [ 150ULL ] * 3.5932794656167223E-23 != 0.0 ) ) || ( ( 1.0 - t36 -> mX . mX [ 150ULL ] / 298.15 ) * ( - 1.7944376352000002E-19 / ( t15 == 0.0 ? 1.0E-16 : t15 ) ) < 663.67513503334737 ) ) ; out -> mASSERT . mX [ 32ULL ] = ( int32_T ) ( t36 -> mX . mX [ 150ULL ] * 3.5932794656167223E-23 != 0.0 ) ; out -> mASSERT . mX [ 33ULL ] = ( int32_T ) ( 1.0 - intrm_sf_mf_18 != 0.0 ) ; out -> mASSERT . mX [ 34ULL ] = ( int32_T ) ( 1.0 - intrm_sf_mf_18 != 0.0 ) ; out -> mASSERT . mX [ 35ULL ] = ( int32_T ) ( ( t35 < 663.67513503334737 ) || ( t35 > 80.0 ) ) ; out -> mASSERT . mX [ 36ULL ] = ( int32_T ) ( ( intrm_sf_mf_29 < 663.67513503334737 ) || ( intrm_sf_mf_29 > 80.0 ) ) ; out -> mASSERT . mX [ 37ULL ] = ( int32_T ) ( t36 -> mX . mX [ 86ULL ] / 298.15 != 0.0 ) ; out -> mASSERT . mX [ 38ULL ] = ( int32_T ) ( t36 -> mX . mX [ 87ULL ] / 298.15 >= 0.0 ) ; out -> mASSERT . mX [ 39ULL ] = ( int32_T ) ( 1.0 - t4 != 0.0 ) ; out -> mASSERT . mX [ 40ULL ] = ( int32_T ) ( 1.0 - t4 != 0.0 ) ; out -> mASSERT . mX [ 41ULL ] = ( int32_T ) ( ( Inverter_2_Solar1_Solar_Cell_diode1_private_Diode_v_diode < 663.67513503334737 ) || ( Inverter_2_Solar1_Solar_Cell_diode1_private_Diode_v_diode > 80.0 ) ) ; out -> mASSERT . mX [ 42ULL ] = ( int32_T ) ( ( intrm_sf_mf_59 < 663.67513503334737 ) || ( intrm_sf_mf_59 > 80.0 ) ) ; out -> mASSERT . mX [ 43ULL ] = ( int32_T ) ( t36 -> mX . mX [ 120ULL ] / 298.15 != 0.0 ) ; out -> mASSERT . mX [ 44ULL ] = ( int32_T ) ( t36 -> mX . mX [ 121ULL ] / 298.15 >= 0.0 ) ; out -> mASSERT . mX [ 45ULL ] = ( int32_T ) ( 1.0 - t8 != 0.0 ) ; out -> mASSERT . mX [ 46ULL ] = ( int32_T ) ( 1.0 - t8 != 0.0 ) ; out -> mASSERT . mX [ 47ULL ] = ( int32_T ) ( ( intrm_sf_mf_84 < 663.67513503334737 ) || ( intrm_sf_mf_84 > 80.0 ) ) ; out -> mASSERT . mX [ 48ULL ] = ( int32_T ) ( ( t12 < 663.67513503334737 ) || ( t12 > 80.0 ) ) ; out -> mASSERT . mX [ 49ULL ] = ( int32_T ) ( t36 -> mX . mX [ 151ULL ] / 298.15 != 0.0 ) ; out -> mASSERT . mX [ 50ULL ] = ( int32_T ) ( t36 -> mX . mX [ 152ULL ] / 298.15 >= 0.0 ) ; ( void ) LC ; ( void ) out ; return 0 ; }

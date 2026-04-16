@@ -7,7 +7,7 @@
 #include "ssc_ml_fun.h"
 int32_T scd3busMicrogridDroopControlFidelityLevels_c0dbec00_1_ds_vpf ( const
 NeDynamicSystem * LC , const NeDynamicSystemInput * t1 , NeDsMethodOutput *
-out ) { static boolean_T _cg_const_1 [ 112 ] = { false , false , false ,
+out ) { static boolean_T _cg_const_1 [ 153 ] = { false , false , false ,
 false , false , false , false , false , false , false , false , false , false
 , false , false , false , false , false , false , false , false , false ,
 false , false , false , false , false , false , false , false , false , false
@@ -15,10 +15,14 @@ false , false , false , false , false , false , false , false , false , false
 false , false , false , false , false , false , false , false , false , false
 , false , false , false , false , false , false , false , false , false ,
 false , false , false , false , false , false , false , false , false , false
+, false , false , false , false , false , true , false , true , false , true
+, false , true , false , true , false , false , false , false , false , false
 , false , false , false , false , false , false , false , false , false ,
-false , false , false , false , false , false , false , true , false , true ,
-false , true , false , true , false , true , false , false , false , true ,
-false , true , false , true , false , true , false , true , false , false ,
-false , false , false } ; int32_T i ; ( void ) t1 ; ( void ) LC ; for ( i = 0
-; i < 112 ; i ++ ) { out -> mVPF . mX [ i ] = _cg_const_1 [ i ] ; } ( void )
-LC ; ( void ) out ; return 0 ; }
+false , false , false , false , false , false , false , false , false , false
+, true , false , true , false , true , false , true , false , true , false ,
+false , false , false , false , false , false , false , false , false , false
+, false , false , false , false , false , false , false , false , false ,
+false , false , false , false , false , true , false , true , false , true ,
+false , true , false , true , false } ; int32_T i ; ( void ) t1 ; ( void ) LC
+; for ( i = 0 ; i < 153 ; i ++ ) { out -> mVPF . mX [ i ] = _cg_const_1 [ i ]
+; } ( void ) LC ; ( void ) out ; return 0 ; }
