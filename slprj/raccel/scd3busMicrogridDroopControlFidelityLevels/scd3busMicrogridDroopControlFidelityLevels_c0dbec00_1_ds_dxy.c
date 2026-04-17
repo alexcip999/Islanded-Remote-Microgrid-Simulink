@@ -6,61 +6,11 @@
 #include "scd3busMicrogridDroopControlFidelityLevels_c0dbec00_1_ds_external_struct.h"
 #include "ssc_ml_fun.h"
 int32_T scd3busMicrogridDroopControlFidelityLevels_c0dbec00_1_ds_dxy ( const
-NeDynamicSystem * LC , const NeDynamicSystemInput * t67 , NeDsMethodOutput *
-out ) { static real_T _cg_const_1 [ 9 ] = { 3.1026870075253588E-9 , 0.0 , 0.0
-, 0.0 , 3.1026870075253588E-9 , 0.0 , 0.0 , 0.0 , 3.1026870075253588E-9 } ;
-static real_T _cg_const_2 [ 9 ] = { 0.003102687007525359 , 0.0 , 0.0 , 0.0 ,
-0.003102687007525359 , 0.0 , 0.0 , 0.0 , 0.003102687007525359 } ; static
-real_T _cg_const_3 [ 9 ] = { - 0.003102687007525359 , - 0.0 , - 0.0 , - 0.0 ,
-- 0.003102687007525359 , - 0.0 , - 0.0 , - 0.0 , - 0.003102687007525359 } ;
-real_T t0 [ 102 ] ; real_T t2 [ 33 ] ; real_T t1 [ 24 ] ; real_T
-intermediate_der295 [ 9 ] ; real_T intermediate_der296 [ 9 ] ; real_T
-intermediate_der297 [ 9 ] ; size_t t18 ; int32_T i3 ; ( void ) t67 ; ( void )
-LC ; intermediate_der295 [ 0 ] = _cg_const_1 [ 0 ] ; intermediate_der295 [ 1
-] = _cg_const_1 [ 1 ] ; intermediate_der295 [ 2 ] = _cg_const_1 [ 2 ] ;
-intermediate_der295 [ 3 ] = _cg_const_1 [ 3 ] ; intermediate_der295 [ 4 ] =
-_cg_const_1 [ 4 ] ; intermediate_der295 [ 5 ] = _cg_const_1 [ 5 ] ;
-intermediate_der295 [ 6 ] = _cg_const_1 [ 6 ] ; intermediate_der295 [ 7 ] =
-_cg_const_1 [ 7 ] ; intermediate_der295 [ 8 ] = _cg_const_1 [ 8 ] ;
-intermediate_der296 [ 0 ] = _cg_const_2 [ 0 ] ; intermediate_der296 [ 1 ] =
-_cg_const_2 [ 1 ] ; intermediate_der296 [ 2 ] = _cg_const_2 [ 2 ] ;
-intermediate_der296 [ 3 ] = _cg_const_2 [ 3 ] ; intermediate_der296 [ 4 ] =
-_cg_const_2 [ 4 ] ; intermediate_der296 [ 5 ] = _cg_const_2 [ 5 ] ;
-intermediate_der296 [ 6 ] = _cg_const_2 [ 6 ] ; intermediate_der296 [ 7 ] =
-_cg_const_2 [ 7 ] ; intermediate_der296 [ 8 ] = _cg_const_2 [ 8 ] ;
-intermediate_der297 [ 0 ] = _cg_const_3 [ 0 ] ; intermediate_der297 [ 1 ] =
-_cg_const_3 [ 1 ] ; intermediate_der297 [ 2 ] = _cg_const_3 [ 2 ] ;
-intermediate_der297 [ 3 ] = _cg_const_3 [ 3 ] ; intermediate_der297 [ 4 ] =
-_cg_const_3 [ 4 ] ; intermediate_der297 [ 5 ] = _cg_const_3 [ 5 ] ;
-intermediate_der297 [ 6 ] = _cg_const_3 [ 6 ] ; intermediate_der297 [ 7 ] =
-_cg_const_3 [ 7 ] ; intermediate_der297 [ 8 ] = _cg_const_3 [ 8 ] ; t1 [ 0ULL
-] = 0.00322301281945155 ; t1 [ 8ULL ] = 0.0 ; t1 [ 16ULL ] = 0.0 ; t1 [ 1ULL
-] = 0.0 ; t1 [ 9ULL ] = 0.00322301281945155 ; t1 [ 17ULL ] = 0.0 ; t1 [ 2ULL
-] = 0.0 ; t1 [ 10ULL ] = 0.0 ; t1 [ 18ULL ] = 0.00322301281945155 ; t1 [ 3ULL
-] = 1.0 ; t1 [ 11ULL ] = - 1.0 ; t1 [ 19ULL ] = 0.0 ; t1 [ 4ULL ] =
-0.00322301281945155 ; t1 [ 12ULL ] = 0.0 ; t1 [ 20ULL ] = 0.0 ; t1 [ 5ULL ] =
-0.0 ; t1 [ 13ULL ] = 0.00322301281945155 ; t1 [ 21ULL ] = 0.0 ; t1 [ 6ULL ] =
-0.0 ; t1 [ 14ULL ] = 0.0 ; t1 [ 22ULL ] = 0.00322301281945155 ; t1 [ 7ULL ] =
-1.0 ; t1 [ 15ULL ] = - 1.0 ; t1 [ 23ULL ] = 0.0 ; t2 [ 0ULL ] = _cg_const_3 [
-0 ] ; t2 [ 11ULL ] = _cg_const_3 [ 3 ] ; t2 [ 22ULL ] = _cg_const_3 [ 6 ] ;
-t2 [ 1ULL ] = _cg_const_3 [ 1 ] ; t2 [ 12ULL ] = _cg_const_3 [ 4 ] ; t2 [
-23ULL ] = _cg_const_3 [ 7 ] ; t2 [ 2ULL ] = _cg_const_3 [ 2 ] ; t2 [ 13ULL ]
-= _cg_const_3 [ 5 ] ; t2 [ 24ULL ] = _cg_const_3 [ 8 ] ; t2 [ 3ULL ] =
-3.2230128194515496E-9 ; t2 [ 14ULL ] = 0.0 ; t2 [ 25ULL ] = 0.0 ; t2 [ 4ULL ]
-= 0.0 ; t2 [ 15ULL ] = 3.2230128194515496E-9 ; t2 [ 26ULL ] = 0.0 ; t2 [ 5ULL
-] = 0.0 ; t2 [ 16ULL ] = 0.0 ; t2 [ 27ULL ] = 3.2230128194515496E-9 ; t2 [
-6ULL ] = 1.0E-6 ; t2 [ 17ULL ] = - 1.0E-6 ; t2 [ 28ULL ] = 0.0 ; t2 [ 7ULL ]
-= 3.2230128194515496E-9 ; t2 [ 18ULL ] = 0.0 ; t2 [ 29ULL ] = 0.0 ; t2 [ 8ULL
-] = 0.0 ; t2 [ 19ULL ] = 3.2230128194515496E-9 ; t2 [ 30ULL ] = 0.0 ; t2 [
-9ULL ] = 0.0 ; t2 [ 20ULL ] = 0.0 ; t2 [ 31ULL ] = 3.2230128194515496E-9 ; t2
-[ 10ULL ] = 1.0E-6 ; t2 [ 21ULL ] = - 1.0E-6 ; t2 [ 32ULL ] = 0.0 ; for ( t18
-= 0ULL ; t18 < 24ULL ; t18 ++ ) { t0 [ t18 ] = t1 [ t18 ] ; } for ( t18 =
-0ULL ; t18 < 9ULL ; t18 ++ ) { t0 [ t18 + 24ULL ] = intermediate_der296 [ t18
-] ; } for ( t18 = 0ULL ; t18 < 9ULL ; t18 ++ ) { t0 [ t18 + 33ULL ] =
-intermediate_der296 [ t18 ] ; } for ( t18 = 0ULL ; t18 < 33ULL ; t18 ++ ) {
-t0 [ t18 + 42ULL ] = t2 [ t18 ] ; } for ( t18 = 0ULL ; t18 < 9ULL ; t18 ++ )
-{ t0 [ t18 + 75ULL ] = intermediate_der295 [ t18 ] ; } for ( t18 = 0ULL ; t18
-< 9ULL ; t18 ++ ) { t0 [ t18 + 84ULL ] = intermediate_der295 [ t18 ] ; } for
-( t18 = 0ULL ; t18 < 9ULL ; t18 ++ ) { t0 [ t18 + 93ULL ] =
-intermediate_der297 [ t18 ] ; } for ( i3 = 0 ; i3 < 102 ; i3 ++ ) { out ->
-mDXY . mX [ i3 ] = t0 [ i3 ] ; } ( void ) LC ; ( void ) out ; return 0 ; }
+NeDynamicSystem * LC , const NeDynamicSystemInput * t136 , NeDsMethodOutput *
+out ) { static real_T _cg_const_1 [ 9 ] = { 0.003102687007525359 , 0.0 , 0.0
+, 0.0 , 0.003102687007525359 , 0.0 , 0.0 , 0.0 , 0.003102687007525359 } ;
+static real_T _cg_const_2 [ 9 ] = { 3.1026870075253588E-9 , 0.0 , 0.0 , 0.0 ,
+3.1026870075253588E-9 , 0.0 , 0.0 , 0.0 , 3.1026870075253588E-9 } ; real_T t5
+[ 21 ] ; real_T t6 [ 21 ] ; real_T t7 [ 21 ] ; real_T t8 [ 21 ] ; real_T t1 [
+12 ] ; real_T t2 [ 12 ] ; real_T t3 [ 12 ] ; real_T t4 [ 12 ] ; real_T
+intermediate_der310 [ 9 ] ; real_T intermediate_der312 [ 9 ] ; size_t t46 ; ( void ) t136 ; ( void ) LC ; intermediate_der310 [ 0 ] = _cg_const_1 [ 0 ] ; intermediate_der310 [ 1 ] = _cg_const_1 [ 1 ] ; intermediate_der310 [ 2 ] = _cg_const_1 [ 2 ] ; intermediate_der310 [ 3 ] = _cg_const_1 [ 3 ] ; intermediate_der310 [ 4 ] = _cg_const_1 [ 4 ] ; intermediate_der310 [ 5 ] = _cg_const_1 [ 5 ] ; intermediate_der310 [ 6 ] = _cg_const_1 [ 6 ] ; intermediate_der310 [ 7 ] = _cg_const_1 [ 7 ] ; intermediate_der310 [ 8 ] = _cg_const_1 [ 8 ] ; intermediate_der312 [ 0 ] = _cg_const_2 [ 0 ] ; intermediate_der312 [ 1 ] = _cg_const_2 [ 1 ] ; intermediate_der312 [ 2 ] = _cg_const_2 [ 2 ] ; intermediate_der312 [ 3 ] = _cg_const_2 [ 3 ] ; intermediate_der312 [ 4 ] = _cg_const_2 [ 4 ] ; intermediate_der312 [ 5 ] = _cg_const_2 [ 5 ] ; intermediate_der312 [ 6 ] = _cg_const_2 [ 6 ] ; intermediate_der312 [ 7 ] = _cg_const_2 [ 7 ] ; intermediate_der312 [ 8 ] = _cg_const_2 [ 8 ] ; t6 [ 6ULL ] = 1.0E-6 ; t6 [ 13ULL ] = - 1.0E-6 ; t6 [ 20ULL ] = 0.0 ; t2 [ 3ULL ] = 1.0 ; t2 [ 7ULL ] = - 1.0 ; t2 [ 11ULL ] = 0.0 ; t3 [ 3ULL ] = 1.0 ; t3 [ 7ULL ] = - 1.0 ; t3 [ 11ULL ] = 0.0 ; t7 [ 6ULL ] = 1.0E-6 ; t7 [ 13ULL ] = - 1.0E-6 ; t7 [ 20ULL ] = 0.0 ; t8 [ 6ULL ] = 1.0E-6 ; t8 [ 13ULL ] = - 1.0E-6 ; t8 [ 20ULL ] = 0.0 ; t4 [ 3ULL ] = 1.0 ; t4 [ 7ULL ] = - 1.0 ; t4 [ 11ULL ] = 0.0 ; t1 [ 3ULL ] = 1.0 ; t1 [ 7ULL ] = - 1.0 ; t1 [ 11ULL ] = 0.0 ; t5 [ 6ULL ] = 1.0E-6 ; t5 [ 13ULL ] = - 1.0E-6 ; t5 [ 20ULL ] = 0.0 ; out -> mDXY . mX [ 0ULL ] = 1.0 ; t1 [ 0ULL ] = 0.00322301281945155 ; t1 [ 4ULL ] = 0.0 ; t1 [ 8ULL ] = 0.0 ; t1 [ 1ULL ] = 0.0 ; t1 [ 5ULL ] = 0.00322301281945155 ; t1 [ 9ULL ] = 0.0 ; t1 [ 2ULL ] = 0.0 ; t1 [ 6ULL ] = 0.0 ; t1 [ 10ULL ] = 0.00322301281945155 ; t2 [ 0ULL ] = 0.00322301281945155 ; t2 [ 4ULL ] = 0.0 ; t2 [ 8ULL ] = 0.0 ; t2 [ 1ULL ] = 0.0 ; t2 [ 5ULL ] = 0.00322301281945155 ; t2 [ 9ULL ] = 0.0 ; t2 [ 2ULL ] = 0.0 ; t2 [ 6ULL ] = 0.0 ; t2 [ 10ULL ] = 0.00322301281945155 ; t3 [ 0ULL ] = 0.00322301281945155 ; t3 [ 4ULL ] = 0.0 ; t3 [ 8ULL ] = 0.0 ; t3 [ 1ULL ] = 0.0 ; t3 [ 5ULL ] = 0.00322301281945155 ; t3 [ 9ULL ] = 0.0 ; t3 [ 2ULL ] = 0.0 ; t3 [ 6ULL ] = 0.0 ; t3 [ 10ULL ] = 0.00322301281945155 ; t4 [ 0ULL ] = 0.00322301281945155 ; t4 [ 4ULL ] = 0.0 ; t4 [ 8ULL ] = 0.0 ; t4 [ 1ULL ] = 0.0 ; t4 [ 5ULL ] = 0.00322301281945155 ; t4 [ 9ULL ] = 0.0 ; t4 [ 2ULL ] = 0.0 ; t4 [ 6ULL ] = 0.0 ; t4 [ 10ULL ] = 0.00322301281945155 ; t5 [ 0ULL ] = - 0.003102687007525359 ; t5 [ 7ULL ] = 0.0 ; t5 [ 14ULL ] = 0.0 ; t5 [ 1ULL ] = 0.0 ; t5 [ 8ULL ] = - 0.003102687007525359 ; t5 [ 15ULL ] = 0.0 ; t5 [ 2ULL ] = 0.0 ; t5 [ 9ULL ] = 0.0 ; t5 [ 16ULL ] = - 0.003102687007525359 ; t5 [ 3ULL ] = 3.2230128194515496E-9 ; t5 [ 10ULL ] = 0.0 ; t5 [ 17ULL ] = 0.0 ; t5 [ 4ULL ] = 0.0 ; t5 [ 11ULL ] = 3.2230128194515496E-9 ; t5 [ 18ULL ] = 0.0 ; t5 [ 5ULL ] = 0.0 ; t5 [ 12ULL ] = 0.0 ; t5 [ 19ULL ] = 3.2230128194515496E-9 ; t6 [ 0ULL ] = - 0.003102687007525359 ; t6 [ 7ULL ] = 0.0 ; t6 [ 14ULL ] = 0.0 ; t6 [ 1ULL ] = 0.0 ; t6 [ 8ULL ] = - 0.003102687007525359 ; t6 [ 15ULL ] = 0.0 ; t6 [ 2ULL ] = 0.0 ; t6 [ 9ULL ] = 0.0 ; t6 [ 16ULL ] = - 0.003102687007525359 ; t6 [ 3ULL ] = 3.2230128194515496E-9 ; t6 [ 10ULL ] = 0.0 ; t6 [ 17ULL ] = 0.0 ; t6 [ 4ULL ] = 0.0 ; t6 [ 11ULL ] = 3.2230128194515496E-9 ; t6 [ 18ULL ] = 0.0 ; t6 [ 5ULL ] = 0.0 ; t6 [ 12ULL ] = 0.0 ; t6 [ 19ULL ] = 3.2230128194515496E-9 ; t7 [ 0ULL ] = - 0.003102687007525359 ; t7 [ 7ULL ] = 0.0 ; t7 [ 14ULL ] = 0.0 ; t7 [ 1ULL ] = 0.0 ; t7 [ 8ULL ] = - 0.003102687007525359 ; t7 [ 15ULL ] = 0.0 ; t7 [ 2ULL ] = 0.0 ; t7 [ 9ULL ] = 0.0 ; t7 [ 16ULL ] = - 0.003102687007525359 ; t7 [ 3ULL ] = 3.2230128194515496E-9 ; t7 [ 10ULL ] = 0.0 ; t7 [ 17ULL ] = 0.0 ; t7 [ 4ULL ] = 0.0 ; t7 [ 11ULL ] = 3.2230128194515496E-9 ; t7 [ 18ULL ] = 0.0 ; t7 [ 5ULL ] = 0.0 ; t7 [ 12ULL ] = 0.0 ; t7 [ 19ULL ] = 3.2230128194515496E-9 ; t8 [ 0ULL ] = - 0.003102687007525359 ; t8 [ 7ULL ] = 0.0 ; t8 [ 14ULL ] = 0.0 ; t8 [ 1ULL ] = 0.0 ; t8 [ 8ULL ] = - 0.003102687007525359 ; t8 [ 15ULL ] = 0.0 ; t8 [ 2ULL ] = 0.0 ; t8 [ 9ULL ] = 0.0 ; t8 [ 16ULL ] = - 0.003102687007525359 ; t8 [ 3ULL ] = 3.2230128194515496E-9 ; t8 [ 10ULL ] = 0.0 ; t8 [ 17ULL ] = 0.0 ; t8 [ 4ULL ] = 0.0 ; t8 [ 11ULL ] = 3.2230128194515496E-9 ; t8 [ 18ULL ] = 0.0 ; t8 [ 5ULL ] = 0.0 ; t8 [ 12ULL ] = 0.0 ; t8 [ 19ULL ] = 3.2230128194515496E-9 ; for ( t46 = 0ULL ; t46 < 12ULL ; t46 ++ ) { out -> mDXY . mX [ t46 + 1ULL ] = t1 [ t46 ] ; } for ( t46 = 0ULL ; t46 < 9ULL ; t46 ++ ) { out -> mDXY . mX [ t46 + 13ULL ] = intermediate_der310 [ t46 ] ; } out -> mDXY . mX [ 22ULL ] = 1.0 ; for ( t46 = 0ULL ; t46 < 12ULL ; t46 ++ ) { out -> mDXY . mX [ t46 + 23ULL ] = t2 [ t46 ] ; } for ( t46 = 0ULL ; t46 < 9ULL ; t46 ++ ) { out -> mDXY . mX [ t46 + 35ULL ] = intermediate_der310 [ t46 ] ; } out -> mDXY . mX [ 44ULL ] = 1.0 ; for ( t46 = 0ULL ; t46 < 12ULL ; t46 ++ ) { out -> mDXY . mX [ t46 + 45ULL ] = t3 [ t46 ] ; } for ( t46 = 0ULL ; t46 < 9ULL ; t46 ++ ) { out -> mDXY . mX [ t46 + 57ULL ] = intermediate_der310 [ t46 ] ; } out -> mDXY . mX [ 66ULL ] = 1.0 ; for ( t46 = 0ULL ; t46 < 12ULL ; t46 ++ ) { out -> mDXY . mX [ t46 + 67ULL ] = t4 [ t46 ] ; } for ( t46 = 0ULL ; t46 < 9ULL ; t46 ++ ) { out -> mDXY . mX [ t46 + 79ULL ] = intermediate_der310 [ t46 ] ; } out -> mDXY . mX [ 88ULL ] = 0.0 ; for ( t46 = 0ULL ; t46 < 9ULL ; t46 ++ ) { out -> mDXY . mX [ t46 + 89ULL ] = intermediate_der312 [ t46 ] ; } for ( t46 = 0ULL ; t46 < 21ULL ; t46 ++ ) { out -> mDXY . mX [ t46 + 98ULL ] = t5 [ t46 ] ; } out -> mDXY . mX [ 119ULL ] = 0.0 ; for ( t46 = 0ULL ; t46 < 9ULL ; t46 ++ ) { out -> mDXY . mX [ t46 + 120ULL ] = intermediate_der312 [ t46 ] ; } for ( t46 = 0ULL ; t46 < 21ULL ; t46 ++ ) { out -> mDXY . mX [ t46 + 129ULL ] = t6 [ t46 ] ; } out -> mDXY . mX [ 150ULL ] = - 1.0 ; out -> mDXY . mX [ 151ULL ] = 1.0 ; out -> mDXY . mX [ 152ULL ] = 0.0 ; for ( t46 = 0ULL ; t46 < 9ULL ; t46 ++ ) { out -> mDXY . mX [ t46 + 153ULL ] = intermediate_der312 [ t46 ] ; } for ( t46 = 0ULL ; t46 < 21ULL ; t46 ++ ) { out -> mDXY . mX [ t46 + 162ULL ] = t7 [ t46 ] ; } out -> mDXY . mX [ 183ULL ] = - 1.0 ; out -> mDXY . mX [ 184ULL ] = 1.0 ; out -> mDXY . mX [ 185ULL ] = 0.0 ; for ( t46 = 0ULL ; t46 < 9ULL ; t46 ++ ) { out -> mDXY . mX [ t46 + 186ULL ] = intermediate_der312 [ t46 ] ; } for ( t46 = 0ULL ; t46 < 21ULL ; t46 ++ ) { out -> mDXY . mX [ t46 + 195ULL ] = t8 [ t46 ] ; } out -> mDXY . mX [ 216ULL ] = - 1.0 ; out -> mDXY . mX [ 217ULL ] = 1.0 ; out -> mDXY . mX [ 218ULL ] = - 1.0 ; out -> mDXY . mX [ 219ULL ] = 1.0 ; ( void ) LC ; ( void ) out ; return 0 ; }
