@@ -7,7 +7,7 @@
 %endfunction
 %function ChartDataMap(block, system) void
   %createrecord ChartDataElements {\
-    NumChartData   6 \
+    NumChartData   10 \
     ChartDataDefaults {\
       RecordType   "ChartData"\
       Dimensions   []\
@@ -28,32 +28,60 @@
       SrcLocation  ""\
     }\
     ChartData {\
+      Name         "est_P_old"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "scd3busMicrogridDroopControlFidelityLevels:1368:531-540"\
+    }\
+    ChartData {\
+      Name         "est_P_old_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "scd3busMicrogridDroopControlFidelityLevels:1368:531-540"\
+    }\
+    ChartData {\
+      Name         "est_Q_old"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "scd3busMicrogridDroopControlFidelityLevels:1368:541-550"\
+    }\
+    ChartData {\
+      Name         "est_Q_old_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "scd3busMicrogridDroopControlFidelityLevels:1368:541-550"\
+    }\
+    ChartData {\
       Name         "dP0_old"\
       Description  "EmlPersistent"\
       SFName       ""\
       Path         ""\
-      SrcLocation  "scd3busMicrogridDroopControlFidelityLevels:1368:497-504"\
+      SrcLocation  "scd3busMicrogridDroopControlFidelityLevels:1368:551-558"\
     }\
     ChartData {\
       Name         "dP0_old_not_empty"\
       Description  "EmlPersistentSentinel"\
       SFName       ""\
       Path         ""\
-      SrcLocation  "scd3busMicrogridDroopControlFidelityLevels:1368:497-504"\
+      SrcLocation  "scd3busMicrogridDroopControlFidelityLevels:1368:551-558"\
     }\
     ChartData {\
       Name         "dQ0_old"\
       Description  "EmlPersistent"\
       SFName       ""\
       Path         ""\
-      SrcLocation  "scd3busMicrogridDroopControlFidelityLevels:1368:505-512"\
+      SrcLocation  "scd3busMicrogridDroopControlFidelityLevels:1368:559-566"\
     }\
     ChartData {\
       Name         "dQ0_old_not_empty"\
       Description  "EmlPersistentSentinel"\
       SFName       ""\
       Path         ""\
-      SrcLocation  "scd3busMicrogridDroopControlFidelityLevels:1368:505-512"\
+      SrcLocation  "scd3busMicrogridDroopControlFidelityLevels:1368:559-566"\
     }\
   }
   %return ChartDataElements
