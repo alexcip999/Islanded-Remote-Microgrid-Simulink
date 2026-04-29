@@ -537,8 +537,8 @@ rtwCAPI_ModelMappingStaticInfo mmiStatic = { { rtBlockSignals , 296 ,
 rtRootInputs , 0 , rtRootOutputs , 0 } , { rtBlockParameters , 557 ,
 rtModelParameters , 12 } , { ( NULL ) , 0 } , { rtDataTypeMap ,
 rtDimensionMap , rtFixPtMap , rtElementMap , rtSampleTimeMap ,
-rtDimensionArray } , "float" , { 1633109894U , 3165619286U , 181475016U ,
-3933054642U } , ( NULL ) , 0 , ( boolean_T ) 0 , rt_LoggedStateIdxList } ;
+rtDimensionArray } , "float" , { 2430894056U , 1931029901U , 54344727U ,
+558513181U } , ( NULL ) , 0 , ( boolean_T ) 0 , rt_LoggedStateIdxList } ;
 const rtwCAPI_ModelMappingStaticInfo *
 scd3busMicrogridDroopControlFidelityLevels_GetCAPIStaticMap ( void ) { return
 & mmiStatic ; }
