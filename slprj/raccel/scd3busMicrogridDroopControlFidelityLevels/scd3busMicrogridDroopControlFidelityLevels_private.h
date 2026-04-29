@@ -29,15 +29,13 @@
 #ifndef rtRound
 #define rtRound(v) ( ((v) >= 0) ?     muDoubleScalarFloor((v) + 0.5) :     muDoubleScalarCeil((v) - 0.5) )
 #endif
-real_T rt_TDelayInterpolate ( real_T tMinusDelay , real_T tStart , real_T *
-uBuf , int_T bufSz , int_T * lastIdx , int_T oldestIdx , int_T newIdx ,
-real_T initOutput , boolean_T discrete , boolean_T
-minorStepAndTAtLastMajorOutput ) ; extern boolean_T
-rt_TDelayUpdateTailOrGrowBuf ( int32_T * bufSzPtr , int32_T * tailPtr ,
-int32_T * headPtr , int32_T * lastPtr , real_T tMinusDelay , real_T * *
-uBufPtr , boolean_T isfixedbuf , boolean_T istransportdelay , int32_T *
-maxNewBufSzPtr ) ; extern real_T look1_binlcpw ( real_T u0 , const real_T bp0
-[ ] , const real_T table [ ] , uint32_T maxIndex ) ; extern void g04zyq5wwj ( dr3zeyo5on * localDW ) ; extern void i4ntyq1hna ( const real_T lpyitkag1t [ 3 ] , real_T hb0qq0zf0i , jcy052muck * localB , dr3zeyo5on * localDW , hn5x2iuncz * localP ) ; extern void lo52y2kjt2 ( kx5rga5han * localDW ) ; extern void delloegdsb ( const real_T lnyu5zmve2 [ 4 ] , real_T cc14byczv0 , real_T hx5uiyvy3r , kdf1f4vz3k * localB , kx5rga5han * localDW ) ;
+extern real_T look1_binlcpw ( real_T u0 , const real_T bp0 [ ] , const real_T
+table [ ] , uint32_T maxIndex ) ; extern void g04zyq5wwj ( dr3zeyo5on *
+localDW ) ; extern void i4ntyq1hna ( const real_T lpyitkag1t [ 3 ] , real_T
+hb0qq0zf0i , jcy052muck * localB , dr3zeyo5on * localDW , hn5x2iuncz * localP
+) ; extern void lo52y2kjt2 ( kx5rga5han * localDW ) ; extern void delloegdsb
+( const real_T lnyu5zmve2 [ 4 ] , real_T cc14byczv0 , real_T hx5uiyvy3r ,
+kdf1f4vz3k * localB , kx5rga5han * localDW ) ;
 #if defined(MULTITASKING)
 #error Models using the variable step solvers cannot define MULTITASKING
 #endif
