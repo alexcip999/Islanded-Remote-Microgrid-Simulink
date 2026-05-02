@@ -7,15 +7,15 @@
 #include "ssc_ml_fun.h"
 int32_T scd3busMicrogridDroopControlFidelityLevels_c0dbec00_1_ds_duf_p ( const
 NeDynamicSystem * LC , const NeDynamicSystemInput * t1 , NeDsMethodOutput *
-out ) { static int32_T _cg_const_1 [ 36 ] = { 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 ,
-0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 , 2 , 3 , 3 , 3 , 3 , 3 , 3 , 3 , 5 , 6 , 6 , 6
-, 6 , 6 , 6 , 6 , 8 , 9 , 11 , 12 } ; static int32_T _cg_const_2 [ 12 ] = {
-112 , 113 , 114 , 146 , 147 , 148 , 180 , 181 , 182 , 196 , 197 , 198 } ; ( void
-) t1 ; ( void ) LC ; out -> mDUF_P . mNumCol = 35ULL ; out -> mDUF_P .
-mNumRow = 212ULL ; out -> mDUF_P . mJc [ 0 ] = _cg_const_1 [ 0 ] ; out ->
-mDUF_P . mJc [ 1 ] = _cg_const_1 [ 1 ] ; out -> mDUF_P . mJc [ 2 ] =
-_cg_const_1 [ 2 ] ; out -> mDUF_P . mJc [ 3 ] = _cg_const_1 [ 3 ] ; out ->
-mDUF_P . mJc [ 4 ] = _cg_const_1 [ 4 ] ; out -> mDUF_P . mJc [ 5 ] =
+out ) { static int32_T _cg_const_1 [ 35 ] = { 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 ,
+0 , 0 , 0 , 0 , 0 , 2 , 3 , 3 , 3 , 3 , 3 , 3 , 3 , 5 , 6 , 6 , 6 , 6 , 6 , 6
+, 6 , 8 , 9 , 11 , 13 , 15 , 16 } ; static int32_T _cg_const_2 [ 16 ] = { 101
+, 102 , 103 , 135 , 136 , 137 , 169 , 170 , 171 , 57 , 58 , 57 , 58 , 185 ,
+186 , 187 } ; ( void ) t1 ; ( void ) LC ; out -> mDUF_P . mNumCol = 34ULL ;
+out -> mDUF_P . mNumRow = 198ULL ; out -> mDUF_P . mJc [ 0 ] = _cg_const_1 [
+0 ] ; out -> mDUF_P . mJc [ 1 ] = _cg_const_1 [ 1 ] ; out -> mDUF_P . mJc [ 2
+] = _cg_const_1 [ 2 ] ; out -> mDUF_P . mJc [ 3 ] = _cg_const_1 [ 3 ] ; out
+-> mDUF_P . mJc [ 4 ] = _cg_const_1 [ 4 ] ; out -> mDUF_P . mJc [ 5 ] =
 _cg_const_1 [ 5 ] ; out -> mDUF_P . mJc [ 6 ] = _cg_const_1 [ 6 ] ; out ->
 mDUF_P . mJc [ 7 ] = _cg_const_1 [ 7 ] ; out -> mDUF_P . mJc [ 8 ] =
 _cg_const_1 [ 8 ] ; out -> mDUF_P . mJc [ 9 ] = _cg_const_1 [ 9 ] ; out ->
@@ -35,13 +35,15 @@ mDUF_P . mJc [ 28 ] = _cg_const_1 [ 28 ] ; out -> mDUF_P . mJc [ 29 ] =
 _cg_const_1 [ 29 ] ; out -> mDUF_P . mJc [ 30 ] = _cg_const_1 [ 30 ] ; out ->
 mDUF_P . mJc [ 31 ] = _cg_const_1 [ 31 ] ; out -> mDUF_P . mJc [ 32 ] =
 _cg_const_1 [ 32 ] ; out -> mDUF_P . mJc [ 33 ] = _cg_const_1 [ 33 ] ; out ->
-mDUF_P . mJc [ 34 ] = _cg_const_1 [ 34 ] ; out -> mDUF_P . mJc [ 35 ] =
-_cg_const_1 [ 35 ] ; out -> mDUF_P . mIr [ 0 ] = _cg_const_2 [ 0 ] ; out ->
-mDUF_P . mIr [ 1 ] = _cg_const_2 [ 1 ] ; out -> mDUF_P . mIr [ 2 ] =
-_cg_const_2 [ 2 ] ; out -> mDUF_P . mIr [ 3 ] = _cg_const_2 [ 3 ] ; out ->
-mDUF_P . mIr [ 4 ] = _cg_const_2 [ 4 ] ; out -> mDUF_P . mIr [ 5 ] =
-_cg_const_2 [ 5 ] ; out -> mDUF_P . mIr [ 6 ] = _cg_const_2 [ 6 ] ; out ->
-mDUF_P . mIr [ 7 ] = _cg_const_2 [ 7 ] ; out -> mDUF_P . mIr [ 8 ] =
-_cg_const_2 [ 8 ] ; out -> mDUF_P . mIr [ 9 ] = _cg_const_2 [ 9 ] ; out ->
-mDUF_P . mIr [ 10 ] = _cg_const_2 [ 10 ] ; out -> mDUF_P . mIr [ 11 ] =
-_cg_const_2 [ 11 ] ; ( void ) LC ; ( void ) out ; return 0 ; }
+mDUF_P . mJc [ 34 ] = _cg_const_1 [ 34 ] ; out -> mDUF_P . mIr [ 0 ] =
+_cg_const_2 [ 0 ] ; out -> mDUF_P . mIr [ 1 ] = _cg_const_2 [ 1 ] ; out ->
+mDUF_P . mIr [ 2 ] = _cg_const_2 [ 2 ] ; out -> mDUF_P . mIr [ 3 ] =
+_cg_const_2 [ 3 ] ; out -> mDUF_P . mIr [ 4 ] = _cg_const_2 [ 4 ] ; out ->
+mDUF_P . mIr [ 5 ] = _cg_const_2 [ 5 ] ; out -> mDUF_P . mIr [ 6 ] =
+_cg_const_2 [ 6 ] ; out -> mDUF_P . mIr [ 7 ] = _cg_const_2 [ 7 ] ; out ->
+mDUF_P . mIr [ 8 ] = _cg_const_2 [ 8 ] ; out -> mDUF_P . mIr [ 9 ] =
+_cg_const_2 [ 9 ] ; out -> mDUF_P . mIr [ 10 ] = _cg_const_2 [ 10 ] ; out ->
+mDUF_P . mIr [ 11 ] = _cg_const_2 [ 11 ] ; out -> mDUF_P . mIr [ 12 ] =
+_cg_const_2 [ 12 ] ; out -> mDUF_P . mIr [ 13 ] = _cg_const_2 [ 13 ] ; out ->
+mDUF_P . mIr [ 14 ] = _cg_const_2 [ 14 ] ; out -> mDUF_P . mIr [ 15 ] =
+_cg_const_2 [ 15 ] ; ( void ) LC ; ( void ) out ; return 0 ; }

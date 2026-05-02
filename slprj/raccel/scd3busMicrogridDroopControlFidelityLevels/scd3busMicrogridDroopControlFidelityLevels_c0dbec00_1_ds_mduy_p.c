@@ -7,7 +7,7 @@
 #include "ssc_ml_fun.h"
 int32_T scd3busMicrogridDroopControlFidelityLevels_c0dbec00_1_ds_mduy_p ( const
 NeDynamicSystem * LC , const NeDynamicSystemInput * t1 , NeDsMethodOutput *
-out ) { ( void ) t1 ; ( void ) LC ; out -> mMDUY_P . mNumCol = 35ULL ; out ->
+out ) { ( void ) t1 ; ( void ) LC ; out -> mMDUY_P . mNumCol = 34ULL ; out ->
 mMDUY_P . mNumRow = 40ULL ; out -> mMDUY_P . mJc [ 0 ] = 0 ; out -> mMDUY_P .
 mJc [ 1 ] = 0 ; out -> mMDUY_P . mJc [ 2 ] = 0 ; out -> mMDUY_P . mJc [ 3 ] =
 0 ; out -> mMDUY_P . mJc [ 4 ] = 0 ; out -> mMDUY_P . mJc [ 5 ] = 0 ; out ->
@@ -23,5 +23,4 @@ mMDUY_P . mJc [ 24 ] = 0 ; out -> mMDUY_P . mJc [ 25 ] = 0 ; out -> mMDUY_P .
 mJc [ 26 ] = 0 ; out -> mMDUY_P . mJc [ 27 ] = 0 ; out -> mMDUY_P . mJc [ 28
 ] = 0 ; out -> mMDUY_P . mJc [ 29 ] = 0 ; out -> mMDUY_P . mJc [ 30 ] = 0 ;
 out -> mMDUY_P . mJc [ 31 ] = 0 ; out -> mMDUY_P . mJc [ 32 ] = 0 ; out ->
-mMDUY_P . mJc [ 33 ] = 0 ; out -> mMDUY_P . mJc [ 34 ] = 0 ; out -> mMDUY_P .
-mJc [ 35 ] = 0 ; ( void ) LC ; ( void ) out ; return 0 ; }
+mMDUY_P . mJc [ 33 ] = 0 ; out -> mMDUY_P . mJc [ 34 ] = 0 ; ( void ) LC ; ( void ) out ; return 0 ; }

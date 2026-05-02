@@ -7,7 +7,7 @@
 #include "ssc_ml_fun.h"
 int32_T scd3busMicrogridDroopControlFidelityLevels_c0dbec00_1_ds_slf ( const
 NeDynamicSystem * LC , const NeDynamicSystemInput * t1 , NeDsMethodOutput *
-out ) { static boolean_T _cg_const_1 [ 212 ] = { false , false , false ,
+out ) { static boolean_T _cg_const_1 [ 198 ] = { false , false , false ,
 false , false , false , false , false , false , false , false , false , false
 , false , false , false , false , false , false , false , false , false ,
 false , false , false , false , false , false , false , false , false , false
@@ -18,15 +18,15 @@ false , false , false , false , false , false , false , false , false , false
 , false , false , false , false , false , false , false , false , false ,
 false , false , false , false , false , false , false , false , false , false
 , false , false , false , false , false , false , false , false , false ,
+false , false , false , false , false , false , true , false , true , false ,
+true , false , true , false , true , false , false , false , false , false ,
 false , false , false , false , false , false , false , false , false , false
-, false , false , false , false , false , false , false , true , false , true
-, false , true , false , true , false , true , false , false , false , false
 , false , false , false , false , false , false , false , false , false ,
+false , true , false , true , false , true , false , true , false , true ,
 false , false , false , false , false , false , false , false , false , false
-, false , false , true , false , true , false , true , false , true , false ,
-true , false , false , false , false , false , false , false , false , false
 , false , false , false , false , false , false , false , false , false ,
-false , false , false , false , false , false , false , true , false , true ,
-false , true , false , true , false , true , false , false , false , false ,
-false , false , false , true , false , true , false , true , false , true ,
-false , true , false , false , false , false } ; int32_T i ; ( void ) t1 ; ( void ) LC ; for ( i = 0 ; i < 212 ; i ++ ) { out -> mSLF . mX [ i ] = _cg_const_1 [ i ] ; } ( void ) LC ; ( void ) out ; return 0 ; }
+false , false , false , false , false , false , true , false , true , false ,
+true , false , true , false , true , false , false , false , false , false ,
+false , false , true , false , true , false , true , false , true , false ,
+true , false } ; int32_T i ; ( void ) t1 ; ( void ) LC ; for ( i = 0 ; i <
+198 ; i ++ ) { out -> mSLF . mX [ i ] = _cg_const_1 [ i ] ; } ( void ) LC ; ( void ) out ; return 0 ; }

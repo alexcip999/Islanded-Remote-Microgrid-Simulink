@@ -8,7 +8,7 @@
 int32_T scd3busMicrogridDroopControlFidelityLevels_c0dbec00_1_ds_dpm_p ( const
 NeDynamicSystem * LC , const NeDynamicSystemInput * t1 , NeDsMethodOutput *
 out ) { ( void ) t1 ; ( void ) LC ; out -> mDPM_P . mNumCol = 32ULL ; out ->
-mDPM_P . mNumRow = 184ULL ; out -> mDPM_P . mJc [ 0 ] = 0 ; out -> mDPM_P .
+mDPM_P . mNumRow = 159ULL ; out -> mDPM_P . mJc [ 0 ] = 0 ; out -> mDPM_P .
 mJc [ 1 ] = 0 ; out -> mDPM_P . mJc [ 2 ] = 0 ; out -> mDPM_P . mJc [ 3 ] = 0
 ; out -> mDPM_P . mJc [ 4 ] = 0 ; out -> mDPM_P . mJc [ 5 ] = 0 ; out ->
 mDPM_P . mJc [ 6 ] = 0 ; out -> mDPM_P . mJc [ 7 ] = 0 ; out -> mDPM_P . mJc
